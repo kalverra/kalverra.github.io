@@ -1,5 +1,5 @@
 languageCode: "en-us"
-baseUrl: ""
+baseUrl: "https://kalverra.github.io"
 title: "Adam's Writing Thing"
 theme: "anubis"
 paginate: 15
