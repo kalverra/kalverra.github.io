@@ -56,6 +56,8 @@ params:
     name: kalverra
   - id: twitter
     name: adam7hamrick
+  - id: linkedin
+    name: adam-hamrick-8b1866116
 
 markup:
   goldmark:
