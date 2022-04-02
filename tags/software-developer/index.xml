@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>software developer on Adam's Writing Thing</title><link>https://kalverra.github.io/tags/software-developer/</link><description>Adam's Writing Thing (software developer)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 05 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kalverra.github.io/tags/software-developer/index.xml" rel="self" type="application/rss+xml"/><item><title>Being a Great SDET</title><link>https://kalverra.github.io/programming/good-testers-are-good-devs/</link><pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate><guid>https://kalverra.github.io/programming/good-testers-are-good-devs/</guid><description>&lt;p>If you&amp;rsquo;re an SDET who&amp;rsquo;s looking for work, &lt;a href="https://chainlinklabs.com/jobs?utm_source=chainlink&amp;amp;utm_medium=side-banner&amp;amp;utm_campaign=careers">we&amp;rsquo;re hiring&lt;/a>!&lt;/p>
+&lt;h2 id="what-an-sdet-does" >What an SDET Does
+&lt;span>
+&lt;a href="#what-an-sdet-does">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>An SDET is a bit of a niche position in the tech world that focuses on testing software. You don&amp;rsquo;t have the time or resources to wait for a team of manual testers walk through different scenarios and figure out what you broke every time you refactor a method. So instead, you get a couple SDETs like myself to write a program that tests your system with blazing speed. So every time you move a button to the left a bit, you can be sure that you didn&amp;rsquo;t somehow also break half of your site.&lt;/p>
+&lt;p>Most of my day is spent working with developers and manual testers, figuring out how the system SHOULD work, and then finding a way to programmatically ensure that. I&amp;rsquo;ll often develop a couple different programs that are designed to quickly run the target system through a bunch of different scenarios and making sure nothing breaks or acts oddly.&lt;/p>
+&lt;h2 id="what-an-sdet-needs-to-be-good-at" >What an SDET Needs to Be Good At
+&lt;span>
+&lt;a href="#what-an-sdet-needs-to-be-good-at">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>Development.&lt;/p>
+&lt;p>That&amp;rsquo;s number 1, without a doubt. An SDET&amp;rsquo;s goal is to test a system quickly and thoroughly, and to do that you need to design a program that can do all the following:&lt;/p>
+&lt;ul>
+&lt;li>Run as quickly as possible&lt;/li>
+&lt;li>Concisely report what went wrong and why&lt;/li>
+&lt;li>Easily understood by other developers and testers who want to test it&lt;/li>
+&lt;li>Is easily expandable to account for new features and test cases&lt;/li>
+&lt;/ul>
+&lt;p>I didn&amp;rsquo;t choose the SDET life, the SDET life chose me&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. At first, I was a little leary of the SDET title, and saw it as something second fiddle to the REAL developers, using their REAL software engineering skills. This is a dangerous misconception, both for those who hire SDETs and those who try to become ones. Look at the list above, you&amp;rsquo;re writing a program that runs fast, is easy to use, can be easily and quickly expanded&amp;hellip; These are all goals that normal developers are constantly keeping in mind. The only difference is that your customer is the developers. You&amp;rsquo;re ensuring that your developers can find out if their code works with as much certainty as possible, as fast as possible. Your developers should be constantly running your tests before they go to production, and if you&amp;rsquo;re seeing less panicked late-night slack meetings, you&amp;rsquo;re doing your job well.&lt;/p>
+&lt;p>The second most important skill is where the testing mindset comes into play. You need to be good at spotting edge cases, covering scenarios where things might fall apart, and prioritizing the tests that will bring the team the greatest amount of value. This all means gaining a deep understanding of how the system you&amp;rsquo;re testing works.&lt;/p>
+&lt;p>It&amp;rsquo;s not for everyone, you&amp;rsquo;re rarely the star of the show. I often describe it as playing the support or healing character in a role-playing game. You&amp;rsquo;re rarely at the front of everyone&amp;rsquo;s mind, but when you&amp;rsquo;re not around, it&amp;rsquo;s immediately evident.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>&lt;em>Tupac Shakur&lt;/em>, Probably&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item></channel></rss>
