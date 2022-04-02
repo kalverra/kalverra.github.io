@@ -42,7 +42,7 @@ I'm not sure how true this is for other professions, but there's a large dispari
 
 ## And you DO need it
 
-Here's where the title's asterisk comes in: society still values college. There's plenty of complex and well-paying jobs that you can obtain without a college degree, but the primary barrier to entry of your standard white-collar job is that piece of paper with fancy calligraphy on it. We'll assume you don't want to go into a profession like law, medicine, or teaching that have state regulations around your formal education. How do you plan to be hired as an accountant, engineer, or architect without a degree? If you've already been in the industry for a while, it's not likely to be a problem. You've gotten your foot in the door and proven your worth. But if your only credentials are a high school diploma and a list of books you've been reading in your parents' basement the past few years, prepare to be disappointed.
+Here's where the title's asterisk comes in: society still values college. but the primary barrier to entry of your standard white-collar job is that piece of paper with fancy calligraphy on it. How do you plan to be hired as an accountant, engineer, or architect without a degree[^1]? If you've already been in the industry for a while, it's not likely to be a problem. You've gotten your foot in the door and proven your worth. But if your only credentials are a high school diploma and a list of books you've been reading in your parents' basement the past few years, prepare to be disappointed. There's plenty of complex and well-paying jobs that you can obtain without a college degree; trade jobs like plumbers and electricians immediately come to mind. But if you're a klutz like me, working with your hands is an unlikely prospect.
 
 Some professions and organizations are tolerant with hiring self-taught people, but only if you have some other way to prove you know what you're doing. Tech is the biggest example because its barrier to entry is so low and the open-source community makes knowledge widely free and available. If a fresh high school grad came to me with a few projects she could speak passionately about and discuss with me in depth, I'd have few issues in hiring her. All she needs to prove her knowledge is a computer and a [GitHub](https://github.com/) portfolio. Most other industries lack the ability to assess candidates like this, and even some tech organizations won't bother.
 
@@ -50,11 +50,11 @@ This is not to say this is a fair position for society to take. It's also not im
 
 ![William Doors](https://media.gatesnotes.com/-/media/Images/Articles/Health/How-to-Prevent-the-Next-Pandemic/homepage-hero_568x408.ashx)
 
-People always like to point to [Bill Gates](https://en.wikipedia.org/wiki/Bill_Gates) (or [Zuckerberg](https://en.wikipedia.org/wiki/Mark_Zuckerberg) or [Dell](https://en.wikipedia.org/wiki/Michael_Dell)) as a reason to not go to college, it obviously worked out for him. His path is not a consistent one to emulate, and Bill himself encourages people to [not be like him](https://www.gatesnotes.com/Education/11-Million-College-Grads). These people are the results of exceptional intelligence, motivation, and luck. [Autodidacts](https://en.wikipedia.org/wiki/Autodidacticism) are extremely rare, successful ones even more so.
+People always like to point to [Bill Gates](https://en.wikipedia.org/wiki/Bill_Gates) (or [Zuckerberg](https://en.wikipedia.org/wiki/Mark_Zuckerberg) or [Dell](https://en.wikipedia.org/wiki/Michael_Dell)) as a reason to not go to college, it obviously worked out for him. His path is not a consistent one to emulate, and Bill himself encourages people to [not be like him](https://www.gatesnotes.com/Education/11-Million-College-Grads). These people are the results of exceptional intelligence, motivation, and luck. Lacking any of those three will lead to failure for 99% of people.
 
 ## It's Not All About the Money
 
-College isn't the most efficient job training simulator because it wasn't designed to be. It's meant to help you grow as a person with broad intellectual achievement. And you get to do so in an environment with tons of other smart, young people looking to learn and have fun.
+College isn't the most efficient job training simulator because it wasn't designed to be. It's meant to help you grow as a person with broad intellectual achievement. And you get to do so in an environment with tons of other smart, young people looking to learn and have fun. That time I spent in English, Philosophy and Biology classes in college didn't do much of anything for my programming abilities, but that time taught me how to be a more well-rounded human, and how to think critically about the world around me.
 
 > I submit that this is what the real, no bullshit value of your liberal
 arts education is supposed to be about: how to keep from going through
@@ -63,3 +63,5 @@ slave to your head and to your natural default setting of being uniquely,
 completely, imperially alone day in and day out.
 >
 > -- *This is Water by David Foster Wallace*
+
+[^1]: If your dream is to become a doctor or lawyer, where you're usually legally obligated to have a certain college degree, expect to be laughed out of every interview. If you ever manage to get that far.
