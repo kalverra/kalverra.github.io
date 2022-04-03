@@ -32,13 +32,13 @@ This is a fundamental shift in not only how currencies usually work, but also ho
 
 ## What They Could Become
 
-Most people[^8] working in the space see cryptocurrencies as a turning point in tech and society, much like the internet was. In fact, many call the world of blockchains and cryptocurrencies "Web 3.0". The counterpoint I most hear is that crypto is a fad or a solution looking for a problem.
+Most people[^8] working in the space see cryptocurrencies as a turning point in tech and society, much like the internet was. In fact, many call the world of blockchains and cryptocurrencies "Web 3.0". The counterpoint I most hear is that crypto is a fad, or a solution looking for a problem.
 
 ![Yeah? Well, you know, that's just like, your opinion, man](https://i.imgur.com/sNebp1W.gif)
 
 At a minimum, cryptocurrencies have, and will, further disrupt how transactions work. There's a massive infrastructure dedicated to moving money around that is largely antiquated, slow, and only gets more complicated when you cross national borders. These are all classic indicators that technology can optimize and replace the current system. Cryptocurrencies do things &mdash; like confirm payments &mdash; in seconds that take traditional banking and finance days.
 
-Besides the use  is often what makes people scoff at the tech as a fad or just some stupid tech nerd thing that isn't really useful. To that, I present to you a clip of Bill Gates trying to explain the internet to David Letterman in 1995.
+People sometimes scoff at cryptocurrencies as a stupid tech nerd thing that isn't useful to them. To that, I present to you a clip of Bill Gates trying to explain the internet to David Letterman in 1995.
 
 {{< youtube gipL_CEw-fk >}}
 
