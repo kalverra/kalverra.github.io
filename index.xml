@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Adam's Writing Thing</title><link>https://kalverra.github.io/</link><description>Adam's Writing Thing</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 05 Mar 2022 14:14:31 -0500</lastBuildDate><atom:link href="https://kalverra.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Cryptocurrencies</title><link>https://kalverra.github.io/tech-explainers/cryptocurrencies/</link><pubDate>Sat, 05 Mar 2022 14:14:31 -0500</pubDate><guid>https://kalverra.github.io/tech-explainers/cryptocurrencies/</guid><description>&lt;p>Cryptocurrencies have entered the public consciousness. Super Bowl 56 aired ads from &lt;a href="https://www.npr.org/2022/02/14/1080237873/superbowl-ads-crypto-bitcoin">cryptocurrency companies&lt;/a>, and sports stadiums have been named after &lt;a href="https://www.nbcsports.com/washington/nationals/nationals-accept-cryptocurrency-ballpark-early-2023-season">similar&lt;/a> &lt;a href="https://en.wikipedia.org/wiki/Crypto.com_Arena">organizations&lt;/a>. These events are often covered on the news with reports — laden with technical jargon and marketing manipulation — that make audiences turn to their nearest tech-literate acquaintance and ask, &amp;ldquo;what are those exactly?&amp;rdquo;. As a member of the the tech-literate, I&amp;rsquo;m consistently disappointed with my answer to this question. It&amp;rsquo;s often half-assed, and satisfies neither me, nor my less-than-captive audience. So here&amp;rsquo;s my attempt at a high-quality answer, and if you&amp;rsquo;ve just received this link from me, you&amp;rsquo;ll hopefully excuse my awkwardness in presenting you with a URL amidst what might otherwise be a casual conversation.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Adam's Writing Thing</title><link>https://kalverra.github.io/</link><description>Adam's Writing Thing</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 05 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kalverra.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Being a Great SDET</title><link>https://kalverra.github.io/programming/good-testers-are-good-devs/</link><pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate><guid>https://kalverra.github.io/programming/good-testers-are-good-devs/</guid><description>&lt;p>If you&amp;rsquo;re an SDET who&amp;rsquo;s looking for work, &lt;a href="https://chainlinklabs.com/jobs?utm_source=chainlink&amp;amp;utm_medium=side-banner&amp;amp;utm_campaign=careers">we&amp;rsquo;re hiring&lt;/a>!&lt;/p>
+&lt;h2 id="what-an-sdet-does" >What an SDET Does
+&lt;span>
+&lt;a href="#what-an-sdet-does">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>An SDET is a bit of a niche position in the tech world that focuses on testing software. You don&amp;rsquo;t have the time or resources to wait for a team of manual testers walk through different scenarios and figure out what you broke every time you refactor a method. So instead, you get a couple SDETs like myself to write a program that tests your system with blazing speed. So every time you move a button to the left a bit, you can be sure that you didn&amp;rsquo;t somehow also break half of your site.&lt;/p>
+&lt;p>Most of my day is spent working with developers and manual testers, figuring out how the system SHOULD work, and then finding a way to programmatically ensure that. I&amp;rsquo;ll often develop a couple different programs that are designed to quickly run the target system through a bunch of different scenarios and making sure nothing breaks or acts oddly.&lt;/p>
+&lt;h2 id="what-an-sdet-needs-to-be-good-at" >What an SDET Needs to Be Good At
+&lt;span>
+&lt;a href="#what-an-sdet-needs-to-be-good-at">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>Development.&lt;/p>
+&lt;p>That&amp;rsquo;s number 1, without a doubt. An SDET&amp;rsquo;s goal is to test a system quickly and thoroughly, and to do that you need to design a program that can do all the following:&lt;/p>
+&lt;ul>
+&lt;li>Run as quickly as possible&lt;/li>
+&lt;li>Concisely report what went wrong and why&lt;/li>
+&lt;li>Easily understood by other developers and testers who want to test it&lt;/li>
+&lt;li>Is easily expandable to account for new features and test cases&lt;/li>
+&lt;/ul>
+&lt;p>I didn&amp;rsquo;t choose the SDET life, the SDET life chose me&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. At first, I was a little leary of the SDET title, and saw it as something second fiddle to the REAL developers, using their REAL software engineering skills. This is a dangerous misconception, both for those who hire SDETs and those who try to become ones. Look at the list above, you&amp;rsquo;re writing a program that runs fast, is easy to use, can be easily and quickly expanded&amp;hellip; These are all goals that normal developers are constantly keeping in mind. The only difference is that your customer is the developers. You&amp;rsquo;re ensuring that your developers can find out if their code works with as much certainty as possible, as fast as possible. Your developers should be constantly running your tests before they go to production, and if you&amp;rsquo;re seeing less panicked late-night slack meetings, you&amp;rsquo;re doing your job well.&lt;/p>
+&lt;p>The second most important skill is where the testing mindset comes into play. You need to be good at spotting edge cases, covering scenarios where things might fall apart, and prioritizing the tests that will bring the team the greatest amount of value. This all means gaining a deep understanding of how the system you&amp;rsquo;re testing works.&lt;/p>
+&lt;p>It&amp;rsquo;s not for everyone, you&amp;rsquo;re rarely the star of the show. I often describe it as playing the support or healing character in a role-playing game. You&amp;rsquo;re rarely at the front of everyone&amp;rsquo;s mind, but when you&amp;rsquo;re not around, it&amp;rsquo;s immediately evident.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>&lt;em>Tupac Shakur&lt;/em>, Probably&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Cryptocurrencies</title><link>https://kalverra.github.io/tech-explainers/cryptocurrencies/</link><pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate><guid>https://kalverra.github.io/tech-explainers/cryptocurrencies/</guid><description>&lt;p>Cryptocurrencies have entered the public consciousness. Super Bowl 56 aired ads from &lt;a href="https://www.npr.org/2022/02/14/1080237873/superbowl-ads-crypto-bitcoin">cryptocurrency companies&lt;/a>, and sports stadiums have been named after &lt;a href="https://www.nbcsports.com/washington/nationals/nationals-accept-cryptocurrency-ballpark-early-2023-season">similar&lt;/a> &lt;a href="https://en.wikipedia.org/wiki/Crypto.com_Arena">organizations&lt;/a>. These events are often covered on the news with reports — laden with technical jargon and marketing manipulation — that make audiences turn to their nearest tech-literate acquaintance and ask, &amp;ldquo;what are those exactly?&amp;rdquo;. As a member of the the tech-literate, I&amp;rsquo;m consistently disappointed with my answer to this question. It&amp;rsquo;s often half-assed, and satisfies neither me, nor my less-than-captive audience. So here&amp;rsquo;s my attempt at a high-quality answer, and if you&amp;rsquo;ve just received this link from me, you&amp;rsquo;ll hopefully excuse my awkwardness in presenting you with a URL amidst what might otherwise be a casual conversation.&lt;/p>
 &lt;p>&lt;strong>Disclaimer&lt;/strong>: I&amp;rsquo;ve been working seriously in the cryptocurrency space for a little over a year as of this writing. That&amp;rsquo;s a relatively long time given how new this tech is, but I&amp;rsquo;m by no means an &lt;em>expert&lt;/em>. Also, while I work on a cryptocurrency project, all opinions are solely my own, and I&amp;rsquo;m sure my co-workers would vehemently argue against at least a few of them.&lt;/p>
 &lt;h2 id="how-they-work" >How They Work
 &lt;span>
@@ -25,10 +58,10 @@
 &lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
 &lt;/a>
 &lt;/span>
-&lt;/h2>&lt;p>Most people&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup> working in the space see cryptocurrencies as a turning point in tech and society, much like the internet was. In fact, many call the world of blockchains and cryptocurrencies &amp;ldquo;Web 3.0&amp;rdquo;. The counterpoint I most hear is that crypto is a fad or a solution looking for a problem.&lt;/p>
+&lt;/h2>&lt;p>Most people&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup> working in the space see cryptocurrencies as a turning point in tech and society, much like the internet was. In fact, many call the world of blockchains and cryptocurrencies &amp;ldquo;Web 3.0&amp;rdquo;. The counterpoint I most hear is that crypto is a fad, or a solution looking for a problem.&lt;/p>
 &lt;p>&lt;img src="https://i.imgur.com/sNebp1W.gif" alt="Yeah? Well, you know, that&amp;amp;rsquo;s just like, your opinion, man">&lt;/p>
-&lt;p>At the minimum, cryptocurrencies have and will further disrupt how transactions work. There&amp;rsquo;s a massive infrastructure dedicated to moving money around that is largely antiquated, slow, and only gets more complicated when you cross national borders. These are all classic indicators that technology can optimize and replace the current system. Cryptocurrencies do things — like confirm payments — in seconds that take traditional banking and finance days.&lt;/p>
-&lt;p>Besides the use is often what makes people scoff at the tech as a fad or just some stupid tech nerd thing that isn&amp;rsquo;t really useful. To that, I present to you a clip of Bill Gates trying to explain the internet to David Letterman in 1995.&lt;/p>
+&lt;p>At a minimum, cryptocurrencies have, and will, further disrupt how transactions work. There&amp;rsquo;s a massive infrastructure dedicated to moving money around that is largely antiquated, slow, and only gets more complicated when you cross national borders. These are all classic indicators that technology can optimize and replace the current system. Cryptocurrencies do things — like confirm payments — in seconds that take traditional banking and finance days.&lt;/p>
+&lt;p>People sometimes scoff at cryptocurrencies as a stupid tech nerd thing that isn&amp;rsquo;t useful to them. To that, I present to you a clip of Bill Gates trying to explain the internet to David Letterman in 1995.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/gipL_CEw-fk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
@@ -46,7 +79,7 @@
 &lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
 &lt;/a>
 &lt;/span>
-&lt;/h3>&lt;p>I suspect things will drastically change in the next 10 or 20 years, but for now the use of these technologies is largely regulated to early-adopters and builders that are deep into technology or finance. Things like currency exchanges, loans, gambling, and video games&lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup> dominate the current crypto world. Not to mention, a lot of these projects require at least some detailed tech knowledge to use correctly. There&amp;rsquo;s not much for the casual observer to do with the crypto world, &lt;em>right now&lt;/em>.&lt;/p>
+&lt;/h3>&lt;p>I suspect things will drastically change in the next 10 or 20 years, but for now the use of these technologies is largely regulated to early-adopters and builders that are deep into technology or finance. Things like currency exchanges, loans, gambling, and video games&lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup> dominate the current crypto world, and most of them require some detailed tech knowledge to use correctly. There&amp;rsquo;s not much for the casual observer to do with the crypto world, &lt;em>right now&lt;/em>.&lt;/p>
 &lt;h3 id="nfts" >NFTs?
 &lt;span>
 &lt;a href="#nfts">
@@ -99,6 +132,7 @@
 &lt;/a>
 &lt;/span>
 &lt;/h3>&lt;p>I can&amp;rsquo;t tell you / I can&amp;rsquo;t tell you. I &lt;strong>can&lt;/strong> tell you that you should probably should invest in something, but for the majority of people, cryptocurrencies are probably not that something&lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup>. The crypto markets are uniquely risky, and most currencies aren&amp;rsquo;t really designed to be investment vehicles anyway. There are thousands of YouTubers, bloggers, and podcasters that will promise untold crypto riches if you listen to their sure-thing advice where they show some fancy charts and make insane predictions. They&amp;rsquo;re lying, either to you or themselves.&lt;/p>
+&lt;p>There&amp;rsquo;s lots of speculation on cryptocurrency prices now, and currently not a whole lot of mainstream functionality exists, leading to more speculation of a possible &lt;a href="https://en.wikipedia.org/wiki/Dot-com_bubble">dot-com style bubble&lt;/a>. Suffice to say that if you&amp;rsquo;re reading this post to explain cryptocurrencies to a beginner, there are a lot more steps to take on educating yourself before you try to invest in these projects.&lt;/p>
 &lt;h3 id="im-interested-where-can-i-learn-more" >I&amp;rsquo;m interested, Where Can I Learn More?
 &lt;span>
 &lt;a href="#im-interested-where-can-i-learn-more">
@@ -125,7 +159,7 @@
 &lt;p>Lots of people haven&amp;rsquo;t heard of &lt;a href="https://en.wikipedia.org/wiki/Satoshi_Nakamoto">Satoshi Nakamoto&lt;/a> though, the creator of the coin. Their story is an interesting one, because no one knows who they are. The name is a pseudonym, and there&amp;rsquo;s some guesses, but no definitive reveal as to who this person actually is (they also stopped posting in 2010). As such, some people in the crypto community elect to do something similar, and are only identified by their online profile names.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:3" role="doc-endnote">
-&lt;p>Those who think Bitcoin is &lt;strong>not&lt;/strong> a relic often like to write mean things on the internet about people who say otherwise. It&amp;rsquo;s a whole culture war I won&amp;rsquo;t get into. Suffice to say that&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>Those who think Bitcoin is &lt;strong>not&lt;/strong> a relic often like to write mean things on the internet about people who say otherwise. It&amp;rsquo;s a whole culture war I won&amp;rsquo;t get into.&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:4" role="doc-endnote">
 &lt;p>There are some rare situations where this isn&amp;rsquo;t the case, like when a company has their own private implementation, or when a scammer is trying to swindle you out of your money.&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
@@ -153,39 +187,6 @@
 &lt;/li>
 &lt;li id="fn:12" role="doc-endnote">
 &lt;p>If you&amp;rsquo;d like to learn about investing strategies and how markets work, &lt;a href="https://www.goodreads.com/book/show/40242274-a-random-walk-down-wall-street">these&lt;/a> &lt;a href="https://www.goodreads.com/book/show/106835.The_Intelligent_Investor">books&lt;/a> &lt;a href="https://www.goodreads.com/book/show/38315.Fooled_by_Randomness">are&lt;/a> &lt;a href="https://www.goodreads.com/book/show/381355.The_Bogleheads_Guide_to_Investing">great&lt;/a>. Here&amp;rsquo;s a &lt;a href="https://www.reddit.com/r/personalfinance/wiki/investing">cheat-sheet&lt;/a> if you&amp;rsquo;re not quite that &lt;em>invested&lt;/em> in the topic.&amp;#160;&lt;a href="#fnref:12" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Being a Great SDET</title><link>https://kalverra.github.io/programming/good-testers-are-good-devs/</link><pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate><guid>https://kalverra.github.io/programming/good-testers-are-good-devs/</guid><description>&lt;p>If you&amp;rsquo;re an SDET who&amp;rsquo;s looking for work, &lt;a href="https://chainlinklabs.com/jobs?utm_source=chainlink&amp;amp;utm_medium=side-banner&amp;amp;utm_campaign=careers">we&amp;rsquo;re hiring&lt;/a>!&lt;/p>
-&lt;h2 id="what-an-sdet-does" >What an SDET Does
-&lt;span>
-&lt;a href="#what-an-sdet-does">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h2>&lt;p>An SDET is a bit of a niche position in the tech world that focuses on testing software. You don&amp;rsquo;t have the time or resources to wait for a team of manual testers walk through different scenarios and figure out what you broke every time you refactor a method. So instead, you get a couple SDETs like myself to write a program that tests your system with blazing speed. So every time you move a button to the left a bit, you can be sure that you didn&amp;rsquo;t somehow also break half of your site.&lt;/p>
-&lt;p>Most of my day is spent working with developers and manual testers, figuring out how the system SHOULD work, and then finding a way to programmatically ensure that. I&amp;rsquo;ll often develop a couple different programs that are designed to quickly run the target system through a bunch of different scenarios and making sure nothing breaks or acts oddly.&lt;/p>
-&lt;h2 id="what-an-sdet-needs-to-be-good-at" >What an SDET Needs to Be Good At
-&lt;span>
-&lt;a href="#what-an-sdet-needs-to-be-good-at">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h2>&lt;p>Development.&lt;/p>
-&lt;p>That&amp;rsquo;s number 1, without a doubt. An SDET&amp;rsquo;s goal is to test a system quickly and thoroughly, and to do that you need to design a program that can do all the following:&lt;/p>
-&lt;ul>
-&lt;li>Run as quickly as possible&lt;/li>
-&lt;li>Concisely report what went wrong and why&lt;/li>
-&lt;li>Easily understood by other developers and testers who want to test it&lt;/li>
-&lt;li>Is easily expandable to account for new features and test cases&lt;/li>
-&lt;/ul>
-&lt;p>I didn&amp;rsquo;t choose the SDET life, the SDET life chose me&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. At first, I was a little leary of the SDET title, and saw it as something second fiddle to the REAL developers, using their REAL software engineering skills. This is a dangerous misconception, both for those who hire SDETs and those who try to become ones. Look at the list above, you&amp;rsquo;re writing a program that runs fast, is easy to use, can be easily and quickly expanded&amp;hellip; These are all goals that normal developers are constantly keeping in mind. The only difference is that your customer is the developers. You&amp;rsquo;re ensuring that your developers can find out if their code works with as much certainty as possible, as fast as possible. Your developers should be constantly running your tests before they go to production, and if you&amp;rsquo;re seeing less panicked late-night slack meetings, you&amp;rsquo;re doing your job well.&lt;/p>
-&lt;p>The second most important skill is where the testing mindset comes into play. You need to be good at spotting edge cases, covering scenarios where things might fall apart, and prioritizing the tests that will bring the team the greatest amount of value. This all means gaining a deep understanding of how the system you&amp;rsquo;re testing works.&lt;/p>
-&lt;p>It&amp;rsquo;s not for everyone, you&amp;rsquo;re rarely the star of the show. I often describe it as playing the support or healing character in a role-playing game. You&amp;rsquo;re rarely at the front of everyone&amp;rsquo;s mind, but when you&amp;rsquo;re not around, it&amp;rsquo;s immediately evident.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>&lt;em>Tupac Shakur&lt;/em>, Probably&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>About</title><link>https://kalverra.github.io/about/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://kalverra.github.io/about/</guid><description>&lt;p>&lt;img src="https://kalverra.github.io/images/head_shot.jpeg" alt="Me">&lt;/p>
