@@ -1,6 +1,6 @@
 ---
 title: "Cryptocurrencies"
-date: 2022-03-05T14:14:31-05:00
+date: 2022-03-05
 draft: false
 categories: ["tech-explainers"]
 tags: ["cryptocurrency", "finance", "economics"]
@@ -32,13 +32,13 @@ This is a fundamental shift in not only how currencies usually work, but also ho
 
 ## What They Could Become
 
-Most people[^8] working in the space see cryptocurrencies as a turning point in tech and society, much like the internet was. In fact, many call the world of blockchains and cryptocurrencies "Web 3.0". The counterpoint I most hear is that crypto is a fad or a solution looking for a problem.
+Most people[^8] working in the space see cryptocurrencies as a turning point in tech and society, much like the internet was. In fact, many call the world of blockchains and cryptocurrencies "Web 3.0". The counterpoint I most hear is that crypto is a fad, or a solution looking for a problem.
 
 ![Yeah? Well, you know, that's just like, your opinion, man](https://i.imgur.com/sNebp1W.gif)
 
-At the minimum, cryptocurrencies have and will further disrupt how transactions work. There's a massive infrastructure dedicated to moving money around that is largely antiquated, slow, and only gets more complicated when you cross national borders. These are all classic indicators that technology can optimize and replace the current system. Cryptocurrencies do things &mdash; like confirm payments &mdash; in seconds that take traditional banking and finance days.
+At a minimum, cryptocurrencies have, and will, further disrupt how transactions work. There's a massive infrastructure dedicated to moving money around that is largely antiquated, slow, and only gets more complicated when you cross national borders. These are all classic indicators that technology can optimize and replace the current system. Cryptocurrencies do things &mdash; like confirm payments &mdash; in seconds that take traditional banking and finance days.
 
-Besides the use  is often what makes people scoff at the tech as a fad or just some stupid tech nerd thing that isn't really useful. To that, I present to you a clip of Bill Gates trying to explain the internet to David Letterman in 1995.
+People sometimes scoff at cryptocurrencies as a stupid tech nerd thing that isn't useful to them. To that, I present to you a clip of Bill Gates trying to explain the internet to David Letterman in 1995.
 
 {{< youtube gipL_CEw-fk >}}
 
@@ -50,7 +50,7 @@ Humans are notoriously bad at predicting the future, so only time will tell the 
 
 ### How Can I Use Them Right Now?
 
-I suspect things will drastically change in the next 10 or 20 years, but for now the use of these technologies is largely regulated to early-adopters and builders that are deep into technology or finance. Things like currency exchanges, loans, gambling, and video games[^10] dominate the current crypto world. Not to mention, a lot of these projects require at least some detailed tech knowledge to use correctly. There's not much for the casual observer to do with the crypto world, *right now*.
+I suspect things will drastically change in the next 10 or 20 years, but for now the use of these technologies is largely regulated to early-adopters and builders that are deep into technology or finance. Things like currency exchanges, loans, gambling, and video games[^10] dominate the current crypto world, and most of them require some detailed tech knowledge to use correctly. There's not much for the casual observer to do with the crypto world, *right now*.
 
 ### NFTs?
 
@@ -86,6 +86,8 @@ It's also complicated, but less so. [Dogecoin](https://en.wikipedia.org/wiki/Dog
 
 I can't tell you / I can't tell you. I **can** tell you that you should probably should invest in something, but for the majority of people, cryptocurrencies are probably not that something[^12]. The crypto markets are uniquely risky, and most currencies aren't really designed to be investment vehicles anyway. There are thousands of YouTubers, bloggers, and podcasters that will promise untold crypto riches if you listen to their sure-thing advice where they show some fancy charts and make insane predictions. They're lying, either to you or themselves.
 
+There's lots of speculation on cryptocurrency prices now, and currently not a whole lot of mainstream functionality exists, leading to more speculation of a possible [dot-com style bubble](https://en.wikipedia.org/wiki/Dot-com_bubble). Suffice to say that if you're reading this post to explain cryptocurrencies to a beginner, there are a lot more steps to take on educating yourself before you try to invest in these projects.
+
 ### I'm interested, Where Can I Learn More?
 
 Chainlink has [set up a hub](https://www.smartcontracthub.dev/) to help people learn more about the tech.
@@ -102,7 +104,7 @@ You're in luck, demand is high! Chainlink [is hiring](https://chainlinklabs.com/
 
 [^2]: Lots of people haven't heard of [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto) though, the creator of the coin. Their story is an interesting one, because no one knows who they are. The name is a pseudonym, and there's some guesses, but no definitive reveal as to who this person actually is (they also stopped posting in 2010). As such, some people in the crypto community elect to do something similar, and are only identified by their online profile names.
 
-[^3]: Those who think Bitcoin is **not** a relic often like to write mean things on the internet about people who say otherwise. It's a whole culture war I won't get into. Suffice to say that 
+[^3]: Those who think Bitcoin is **not** a relic often like to write mean things on the internet about people who say otherwise. It's a whole culture war I won't get into.
 
 [^4]: There are some rare situations where this isn't the case, like when a company has their own private implementation, or when a scammer is trying to swindle you out of your money.
 
