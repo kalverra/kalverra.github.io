@@ -62,7 +62,7 @@ People sometimes scoff at cryptocurrencies as a stupid tech nerd thing that isn'
 
 {{< youtube gipL_CEw-fk >}}
 
-Doesn't sound too revolutionary does it[^9]? Bill Gates, the king of computer nerds and one of the greatest businessmen in the world, was only able to think of radio and email as the future of the internet. Back then it was normal to be skeptical of this nerdy internet thing, but if you ask "what is that internet thing anyway?" you're typically met with looks of confusion or pity. Back then it was a niche technology that only nerds got excited about, and now the internet dominates our modern society.
+Doesn't sound too revolutionary does it? Bill Gates, the king of computer nerds and one of the greatest businessmen in the world, was only able to think of radio and email as the future of the internet. Back then it was normal to be skeptical of this nerdy internet thing, but if you ask "what is that internet thing anyway?" you're typically met with looks of confusion or pity. Back then it was a niche technology that only nerds got excited about, and now the internet dominates our modern society.
 
 But there's a problem with the internet today: ads. They are the reason Google makes $257.6 billion a year, and they are the reason why tech companies like Google collect a [frightening amount of information](https://youtu.be/wqn3gR1WTcA) about you. Targeting ads based on your personal data is a lucrative business, and a precursor to some dystopian [1984](https://www.goodreads.com/book/show/5470.1984) shit. You remember how terrifying that book was? Or how dark the SparkNotes summary sounded when you were cramming before that 10th grade English class? Cryptocurrencies and blockchains enable different profit models, ones that don't depend on collecting your personal data and selling it to the highest bidder.
 
@@ -72,7 +72,7 @@ Humans are notoriously bad at predicting the future, so only time will tell the 
 
 ### How Can I Use Them Right Now?
 
-I suspect things will drastically change in the next 10 or 20 years, but for now the use of these technologies is primarily regulated to early-adopters and builders that are deep into technology or finance. Things like currency exchanges, loans, gambling, and video games[^10] dominate the current crypto world, and most of them require some detailed tech knowledge to use correctly. There's not much, that I know of, for the casual observer to do with the crypto world, *right now*.
+I suspect things will drastically change in the next 10 or 20 years, but for now the use of these technologies is primarily regulated to early-adopters and builders that are deep into technology or finance. Things like currency exchanges, loans, gambling, and video games[^9] dominate the current crypto world, and most of them require some detailed tech knowledge to use correctly. There's not much, that I know of, for the casual observer to do with the crypto world, *right now*.
 
 ### NFTs?
 
@@ -84,7 +84,7 @@ All this is to say that you can use blockchain tech to show your ownership of un
 
 ### Environmental Impact?
 
-It's not great. The process most blockchains use to operate is a [consensus mechanism](https://ethereum.org/en/developers/docs/consensus-mechanisms/) called Proof-of-Work, which entails people running very expensive and energy inefficient programs[^11] on their computers. But, there's hope that this will change soon. Proof-of-Stake is a method that blockchains can use that consumes 99% less electricity, and most new chains use it. Others like Ethereum are [actively working](https://www.technologyreview.com/2022/03/04/1046636/ethereum-blockchain-proof-of-stake/#:~:text=Of%20course%2C%20Ethereum's%20move%20to,such%20a%20model%20is%20complex.) to switch to this system.
+It's not great. The process most blockchains use to operate is a [consensus mechanism](https://ethereum.org/en/developers/docs/consensus-mechanisms/) called Proof-of-Work, which entails people running very expensive and energy inefficient programs[^10] on their computers. But, there's hope that this will change soon. Proof-of-Stake is a method that blockchains can use that consumes 99% less electricity, and most new chains use it. Others like Ethereum are [actively working](https://www.technologyreview.com/2022/03/04/1046636/ethereum-blockchain-proof-of-stake/#:~:text=Of%20course%2C%20Ethereum's%20move%20to,such%20a%20model%20is%20complex.) to switch to this system.
 
 ### Money Laundering?
 
@@ -106,7 +106,7 @@ It's also complicated, but less so. [Dogecoin](https://en.wikipedia.org/wiki/Dog
 
 ### Should I Invest / What Should I Invest In?
 
-I can't tell you / I can't tell you. I **can** tell you that you should probably should invest in something, but for the majority of people, cryptocurrencies are probably not that something[^12]. The crypto markets are uniquely risky, and most currencies aren't really designed to be investment vehicles anyway. There are thousands of YouTubers, bloggers, and podcasters that will promise untold crypto riches if you listen to their sure-thing advice where they show some fancy charts and make insane predictions. They're lying, either to you or themselves.
+I can't tell you / I can't tell you. I **can** tell you that you should probably should invest in something, but for the majority of people, cryptocurrencies are probably not that something[^11]. The crypto markets are uniquely risky, and most currencies aren't really designed to be investment vehicles anyway. There are thousands of YouTubers, bloggers, and podcasters that will promise untold crypto riches if you listen to their sure-thing advice where they show some fancy charts and make insane predictions. They're lying, either to you or themselves.
 
 There's lots of speculation on cryptocurrency prices now, and currently not a whole lot of mainstream functionality exists, leading to more speculation of a possible [dot-com style bubble](https://en.wikipedia.org/wiki/Dot-com_bubble). Suffice to say that if you're reading this post to explain cryptocurrencies to a beginner, there are a lot more steps to take on educating yourself before you try to invest in these projects.
 
@@ -140,8 +140,6 @@ You're in luck, demand is high! Chainlink [is hiring](https://chainlinklabs.com/
 
 [^9]: As an avid gamer, these are pretty lame. Personally I don't think video games and cryptocurrencies will mix very well in the future, but I guess we'll see.
 
-[^10]: Writing this actually inspired me to read [this book](https://www.goodreads.com/en/book/show/722412) on the history of the people responsible for creating the computer, and later, the internet. It's fascinating just how revolutionary these ideas were back then. The creation of the computer also had a lot more psychologists involved than I would have ever guessed.
+[^10]: This process often uses a specialized piece of computer hardware called a GPU, or graphics card. They're typically used by people who do a lot of visual work on their computers like animations and 3D models. They're also used by people like me who play a lot of video games on their computer. So I'm very eager for Proof-of-Stake to happen for not only environmental reasons, but also because people keep buying all the graphics cards and I cannot get one to play games with!
 
-[^11]: This process often uses a specialized piece of computer hardware called a GPU, or graphics card. They're typically used by people who do a lot of visual work on their computers like animations and 3D models. They're also used by people like me who play a lot of video games on their computer. So I'm very eager for Proof-of-Stake to happen for not only environmental reasons, but also because people keep buying all the graphics cards and I cannot get one to play games with!
-
-[^12]: If you'd like to learn about investing strategies and how markets work, [these](https://www.goodreads.com/book/show/40242274-a-random-walk-down-wall-street) [books](https://www.goodreads.com/book/show/106835.The_Intelligent_Investor) [are](https://www.goodreads.com/book/show/38315.Fooled_by_Randomness) [great](https://www.goodreads.com/book/show/381355.The_Bogleheads_Guide_to_Investing). Here's a [cheat-sheet](https://www.reddit.com/r/personalfinance/wiki/investing) if you're not quite that *invested* in the topic.
+[^11]: If you'd like to learn about investing strategies and how markets work, [these](https://www.goodreads.com/book/show/40242274-a-random-walk-down-wall-street) [books](https://www.goodreads.com/book/show/106835.The_Intelligent_Investor) [are](https://www.goodreads.com/book/show/38315.Fooled_by_Randomness) [great](https://www.goodreads.com/book/show/381355.The_Bogleheads_Guide_to_Investing). Here's a [cheat-sheet](https://www.reddit.com/r/personalfinance/wiki/investing) if you're not quite that *invested* in the topic.
