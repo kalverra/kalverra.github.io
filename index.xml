@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Adam's Writing Thing</title><link>https://kalverra.github.io/</link><description>Adam's Writing Thing</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kalverra.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Use Longer Fucking Variable Names</title><link>https://kalverra.github.io/programming/use-longer-fucking-variable-names/</link><pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate><guid>https://kalverra.github.io/programming/use-longer-fucking-variable-names/</guid><description>&lt;p>Really, please just do it. I see this crap in so many different repos, written by otherwise amazingly good developers. A recent &lt;a href="https://go.dev/">Go&lt;/a> example:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Adam's Writing Thing</title><link>https://kalverra.github.io/</link><description>Adam's Writing Thing</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 07 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kalverra.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Review: A Philosophy of Software Design</title><link>https://kalverra.github.io/books/review-a-philosophy-of-software-design/</link><pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate><guid>https://kalverra.github.io/books/review-a-philosophy-of-software-design/</guid><description>&lt;p>&lt;a href="https://www.goodreads.com/en/book/show/39996759">A Philosophy of Software Design by John Ousterhout&lt;/a> is a wide ranging, highly opinionated look at general software design practices and how to best implement them. It ranges from big-picture musings on &amp;ldquo;The Nature of Complexity&amp;rdquo;, down to seemingly miniscule squabbles around &amp;ldquo;Choosing Names&amp;rdquo; for variables and methods.&lt;/p>
+&lt;h2 id="the-author" >The Author
+&lt;span>
+&lt;a href="#the-author">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>&lt;a href="https://web.stanford.edu/~ouster/cgi-bin/home.php">John Ousterhout&lt;/a> is a computer scientist who got his PhD from Carnegie Mellon, did some cool research work, bounced around the industry a bit, and has settled back into academia as a faculty member at Stanford where he regularly teaches courses on software design. He claims teaching this course is what gave him most of his inspiration and material in writing the book. He also thanks a group of people for their help in the book, including &lt;a href="https://en.wikipedia.org/wiki/Rob_Pike">Rob Pike&lt;/a> and &lt;a href="https://www.jameskoppel.com/">James Koppel&lt;/a>.&lt;/p>
+&lt;h2 id="the-book" >The Book
+&lt;span>
+&lt;a href="#the-book">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>Broken down into highly structured and compact chapters, Ousterhout touches on what he considers the most crucial considerations for writing modern software. He starts out by ultimately declaring complexity to be an enemy of the state of software, and anytime you find yourself writing complex code, you need to take a good look at what has led you down this demonic path.&lt;/p>
+&lt;blockquote>
+&lt;p>The most fundamental problem in computer science is problem decomposition: how to take a complex problem and divide it up into pieces that can be solved independently [&amp;hellip;] we must find ways to make software simpler. Complexity will still increase over time, in spite of our best efforts, but simpler designs allow us to build larger and more powerful systems before complexity becomes overwhelming.&lt;/p>
+&lt;/blockquote>
+&lt;p>This problem remains prevalent no matter how much sheer willpower we have thrown at it as an industry. It seems that CS is often the &lt;em>practice&lt;/em> of independent problem solving, rather than its antagonist. Framing this as a &amp;ldquo;problem&amp;rdquo; strikes me as odd in the same way if someone told me that &amp;lsquo;math would be perfect if it weren&amp;rsquo;t for all these pesky equations&amp;rsquo;. I&amp;rsquo;m getting bogged down in semantics here, the ultimate idea is that intertwined systems lead to complexity, and complexity ultimately leads to bugs, frustration, and screaming at my computer like a lunatic when it keeps printing &lt;code>a&lt;/code> despite me &lt;em>clearly&lt;/em> telling it to print &lt;code>b&lt;/code>. Ousterhout spends the rest of the book detailing what he means by complexity, then delving into the strategies to avoid it. Each chapter details one of these strategies, providing a handy summary at the end of each one, and some red flags to watch for when you can likely implement a specific strategy to remove complexity from your design.&lt;/p>
+&lt;blockquote>
+&lt;p>Every rule has its exceptions, and every principle has its limits. If you take any design idea to its extreme, you will probably end up in a bad place. Beautiful designs reflect a balance between competing ideas and approaches.&lt;/p>
+&lt;/blockquote>
+&lt;p>The book is staunchly opinionated on design approaches, what types of problems to focus on, and how to fix them. But it consistently warns that taking any solution to the extreme will ultimately lead you back into the clutches of complexity. And what exactly is complexity?&lt;/p>
+&lt;blockquote>
+&lt;p>Complexity is anything related to the structure of a software system that makes it hard to understand and modify the system. Complexity can take many forms. For example, it might be hard to understand how a piece of code works; it might take a lot of effort to implement a small improvement, or it might not be clear which parts of the system must be modified to make the improvement&lt;/p>
+&lt;p>The first symptom of complexity is that a seemingly simple change requires code modifications in many different places.&lt;/p>
+&lt;p>The second symptom of complexity is cognitive load, which refers to how much a developer needs to know in order to complete a task.&lt;/p>
+&lt;p>The third symptom of complexity is that it is not obvious which pieces of code must be modified to complete a task, or what information a developer must have to carry out the task successfully.&lt;/p>
+&lt;p>Of the three manifestations of complexity, unknown unknowns are the worst. An unknown unknown means that there is something you need to know, but there is no way for you to find out what it is, or even whether there is an issue.&lt;/p>
+&lt;/blockquote>
+&lt;p>Complexity itself is defined rather amorphously; it&amp;rsquo;s largely left to &amp;ldquo;you know it when you see it&amp;rdquo;. Which is fine for me. I&amp;rsquo;ve rarely found myself disagreeing with someone about whether some code is complex or not. Conflict usually begins when we start asking pesky questions like &amp;ldquo;how do we make it simpler?&amp;rdquo;. This question is what Ousterhout spends the majority of the book answering.&lt;/p>
+&lt;p>I won&amp;rsquo;t detail all of his suggestions here (take a look at the Table of Contents for a good idea), but I found his focus on comments and naming (5 of the 22 chapters) intriguing, mostly because I&amp;rsquo;ve found myself to be more focused on this aspect than nearly all of my colleagues, and often took that focus as a sign of me being somehow inferior as a programmer; that I couldn&amp;rsquo;t magically divine what the code is doing showed that I was somehow deficient. It turns out that Ousterhout agrees with me that this is something to focus heavily on, and can really help everyone. Some of his advice includes &lt;strong>starting your method by writing the comment&lt;/strong> then work on the implementation, taking care to update the comments as you make changes to the original design. This can be annoying — especially as you make lots of changes in need of documenting — but forces you to at least write &lt;em>something&lt;/em>, where most people never bother going that far.&lt;/p>
+&lt;p>My only real criticism of the book is the same I have for all programming books: its reliance on toy problems. Toy problems are a necessity for this stuff. You can&amp;rsquo;t just say &amp;ldquo;my example is Kubernetes, go read it&amp;rdquo;, I need digestible problems to learn your lessons from. For the concrete problems and solutions Ousterhout focuses on, this use of toy problems makes even more sense, but so often I find that simplifying the issue often trivializes the solution. So applying some of the toy code advice to a situation where I actually am working on code as large and complex as Kubernetes becomes tricky.&lt;/p>
+&lt;p>You can see this in another light though, as Ousterhout continually mentions that the complexity we most often encounter is rarely a symptom of overall design, but rather is added in small increments over the years, until you find yourself staring at a 50 layer &lt;code>if-else&lt;/code> garbage pile. Just like no one looks like Arnold Schwarzenegger after a couple days in the gym, and Schwarzenegger doesn&amp;rsquo;t gain 50 pounds of fat after eating a bag of chips, these large transitions usually take time. It&amp;rsquo;s those little decisions, like choosing to comment your code, spend a little more investment on a simpler design, focusing on more-frequent use cases on that one method, those little acts of care add up to reduce overall complexity as long as you consistently adhere to their underlying philosophy.&lt;/p>
+&lt;h2 id="the-takeaways" >The Takeaways
+&lt;span>
+&lt;a href="#the-takeaways">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>The book is excellent. I found myself silently nodding to myself as I read over written forms of lessons I had long ago internalized in my experience of writing software. I wish I had read it sooner, and I think that if you&amp;rsquo;re a college senior embarking on your career — or have been working for a few years — this book is ideal. Here&amp;rsquo;s a scattering of key quotes and takeaways I felt to be poignant.&lt;/p>
+&lt;blockquote>
+&lt;p>it’s worth taking a little extra time to find a simple design for each new class; rather than implementing the first idea that comes to mind, try a couple of alternative designs and pick the cleanest one. Try to imagine a few ways in which the system might need to be changed in the future and make sure that will be easy with your design.&lt;/p>
+&lt;/blockquote>
+&lt;p>I find this can sometimes paralyze me with decision paralysis though. Best to not be taken to the extreme.&lt;/p>
+&lt;blockquote>
+&lt;p>interfaces should be designed to make the common case as simple as possible&lt;/p>
+&lt;/blockquote>
+&lt;p>An opinionated book recommends you use an opinionated design. Though sometimes it&amp;rsquo;s tricky to predict just how exactly people will use your code.&lt;/p>
+&lt;blockquote>
+&lt;p>Information leakage is one of the most important red flags in software design. One of the best skills you can learn as a software designer is a high level of sensitivity to information leakage. If you encounter information leakage between classes, ask yourself “How can I reorganize these classes so that this particular piece of knowledge only affects a single class?”&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>I have found over and over that specialization leads to complexity; I now think that over-specialization may be the single greatest cause of complexity in software. Conversely, code that is more general-purpose is simpler, cleaner, and easier to understand.&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>I have noticed that the design-it-twice principle is sometimes hard for really smart people to embrace. When they are growing up, smart people discover that their first quick idea about any problem is sufficient for a good grade; there is no need to consider a second or third possibility. This tends to result in bad work habits. However, as these people get older, they get promoted into environments with harder and harder problems. Eventually, everyone reaches a point where your first ideas are no longer good enough; if you want to get really great results, you have to consider a second possibility, or perhaps a third, no matter how smart you are. The design of large software systems falls in this category: no-one is good enough to get it right with their first try.&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>If you want to maintain a clean design for a system, you must take a strategic approach when modifying existing code. Ideally, when you have finished with each change, the system will have the structure it would have had if you had designed it from the start with that change in mind.&lt;/p>
+&lt;/blockquote>
+&lt;p>I love this idea, but it&amp;rsquo;s hard to focus on when this change is blocking 5 different teams that need it now.&lt;/p>
+&lt;blockquote>
+&lt;p>Don’t change existing conventions. Resist the urge to “improve” on existing conventions. Having a “better idea” is not a sufficient excuse to introduce inconsistencies. Your new idea may indeed be better, but the value of consistency over inconsistency is almost always greater than the value of one approach over another.&lt;/p>
+&lt;/blockquote>
+&lt;p>Consistency == Readability&lt;/p>
+&lt;blockquote>
+&lt;p>Programmers’ intuitions about performance are unreliable. This is true even for experienced developers. If you start making changes based on intuition, you’ll waste time on things that don’t actually improve performance, and you’ll probably make the system more complicated in the process.&lt;/p>
+&lt;/blockquote>
+&lt;p>Design it, then measure it to find out where you fucked up.&lt;/p></description></item><item><title>Use Longer Fucking Variable Names</title><link>https://kalverra.github.io/programming/use-longer-fucking-variable-names/</link><pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate><guid>https://kalverra.github.io/programming/use-longer-fucking-variable-names/</guid><description>&lt;p>Really, please just do it. I see this crap in so many different repos, written by otherwise amazingly good developers. A recent &lt;a href="https://go.dev/">Go&lt;/a> example:&lt;/p>
 &lt;hr>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">p&lt;/span>, &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">picFunc&lt;/span>()
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
@@ -201,47 +270,47 @@ on a whim. These benefits will start to become more and more attractive in more 
 &lt;/a>
 &lt;/span>
 &lt;/h3>&lt;p>You&amp;rsquo;re in luck, demand is high! Chainlink &lt;a href="https://chainlinklabs.com/careers">is hiring&lt;/a> for nearly everything right now, and there&amp;rsquo;s plenty of others &lt;a href="https://cryptocurrencyjobs.co/">looking for&lt;/a> eager employees.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
+&lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
+&lt;li id="fn:1">
 &lt;p>If you&amp;rsquo;d actually like to learn more deeply about the technology behind cryptocurrencies, check out &lt;a href="https://youtu.be/bBC-nXj3Ng4">this excellent video&lt;/a> that doesn&amp;rsquo;t require any background in math or computer science.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
+&lt;li id="fn:2">
 &lt;p>Lots of people haven&amp;rsquo;t heard of &lt;a href="https://en.wikipedia.org/wiki/Satoshi_Nakamoto">Satoshi Nakamoto&lt;/a> though, the creator of the coin. Their story is an interesting one, because no one knows who they are. The name is a pseudonym, and there&amp;rsquo;s some guesses, but no definitive reveal as to who this person actually is (they also stopped posting in 2010). As such, some people in the crypto community elect to do something similar, and are only identified by their online profile names.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
+&lt;li id="fn:3">
 &lt;p>Those who think Bitcoin is &lt;strong>not&lt;/strong> a relic often like to write mean things on the internet about people who say otherwise. It&amp;rsquo;s a whole culture war I won&amp;rsquo;t get into.&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:4" role="doc-endnote">
+&lt;li id="fn:4">
 &lt;p>There are some rare situations where this isn&amp;rsquo;t the case, like when a company has their own private implementation, or when a scammer is trying to swindle you out of your money.&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:5" role="doc-endnote">
+&lt;li id="fn:5">
 &lt;p>&lt;a href="https://github.com/monero-project/monero">Monero&lt;/a> is a notable exception to this rule, but it&amp;rsquo;s rather fringe. It&amp;rsquo;s a cryptocurrency project that hides account balances and transactions.&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:6" role="doc-endnote">
+&lt;li id="fn:6">
 &lt;p>Those fascist pigs&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:7" role="doc-endnote">
+&lt;li id="fn:7">
 &lt;p>Not the drunkenly yelling at your cell phone though, that mostly stays the same.&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:8" role="doc-endnote">
+&lt;li id="fn:8">
 &lt;p>It was far more common in the early days for anarchists and libertarians to assert that the invention of Bitcoin and similar currencies would be the turning point for revolution, that the world would now operate without governments entirely. The crypto community still skews libertarian by its nature, but most have disposed of the whole &amp;ldquo;completely dismantle all governments&amp;rdquo; idea. Most focus on just partially dismantling governments and mostly dismantling banks.&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:9" role="doc-endnote">
+&lt;li id="fn:9">
 &lt;p>As an avid gamer, these are pretty lame. Personally I don&amp;rsquo;t think video games and cryptocurrencies will mix very well in the future, but I guess we&amp;rsquo;ll see.&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:10" role="doc-endnote">
+&lt;li id="fn:10">
 &lt;p>This process often uses a specialized piece of computer hardware called a GPU, or graphics card. They&amp;rsquo;re typically used by people who do a lot of visual work on their computers like animations and 3D models. They&amp;rsquo;re also used by people like me who play a lot of video games on their computer. So I&amp;rsquo;m very eager for Proof-of-Stake to happen for not only environmental reasons, but also because people keep buying all the graphics cards and I cannot get one to play games with!&amp;#160;&lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:11" role="doc-endnote">
+&lt;li id="fn:11">
 &lt;p>If you&amp;rsquo;d like to learn about investing strategies and how markets work, &lt;a href="https://www.goodreads.com/book/show/40242274-a-random-walk-down-wall-street">these&lt;/a> &lt;a href="https://www.goodreads.com/book/show/106835.The_Intelligent_Investor">books&lt;/a> &lt;a href="https://www.goodreads.com/book/show/38315.Fooled_by_Randomness">are&lt;/a> &lt;a href="https://www.goodreads.com/book/show/381355.The_Bogleheads_Guide_to_Investing">great&lt;/a>. Here&amp;rsquo;s a &lt;a href="https://www.reddit.com/r/personalfinance/wiki/investing">cheat-sheet&lt;/a> if you&amp;rsquo;re not quite that &lt;em>invested&lt;/em> in the topic.&amp;#160;&lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>About</title><link>https://kalverra.github.io/about/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://kalverra.github.io/about/</guid><description>&lt;p>&lt;img src="https://kalverra.github.io/images/head_shot.jpeg" alt="Me">&lt;/p>
+&lt;/div></description></item><item><title>About</title><link>https://kalverra.github.io/about/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://kalverra.github.io/about/</guid><description>&lt;p>&lt;img src="https://kalverra.github.io/images/head_shot.jpeg" alt="Me">&lt;/p>
 &lt;p>I&amp;rsquo;m Adam, a Software Engineer currently working on &lt;a href="https://chain.link/">Chainlink&lt;/a> (anything I say is personal opinion, etc&amp;hellip;). You can check out my work on my &lt;a href="https://github.com/kalverra">GitHub&lt;/a> and &lt;a href="https://www.linkedin.com/in/adam-hamrick-8b1866116/">LinkedIn&lt;/a>.&lt;/p>
 &lt;p>I used to pride myself on my writing ability, but in recent years have been mainly writing in programming languages and less English. So, partially wanting to improve my writing, and partially inspired by &lt;a href="http://www.paulgraham.com/words.html">this Paul Graham essay&lt;/a>, I decided to start this. I’m making it public to force some accountability. And who knows, maybe someday I’ll say something interesting enough that someone other than my mom will want to read it.&lt;/p></description></item><item><title>College is a Scam*</title><link>https://kalverra.github.io/essays/college-is-a-scam/</link><pubDate>Mon, 31 Jan 2022 19:26:51 -0500</pubDate><guid>https://kalverra.github.io/essays/college-is-a-scam/</guid><description>&lt;p>I recently went to see my brother-in-law graduate from college. There&amp;rsquo;s a lot of attitudes present at any graduation event, the pride and accomplishment of so many young people and their parents easily sweeps you into a happy embrace. There&amp;rsquo;s also consequently an underlying sense of surety. The surety that these years of education and a degree signifying that fact were all good ideas. I went through the same process not too long ago and have possessed this same surety for the entirety of my life. So imagine my whiplash as I came across a Twitter tirade of intelligent and highly educated tech leaders claiming that a college degree is one big scam.&lt;/p>
-&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">College is a scam, you don’t need it.&lt;br>&lt;br>- Stanford ‘00, ‘04, ‘05, ‘06 &lt;a href="https://t.co/VonzG04L0I">https://t.co/VonzG04L0I&lt;/a>&lt;/p>&amp;mdash; Balaji Srinivasan (@balajis) &lt;a href="https://twitter.com/balajis/status/1472209100536614914?ref_src=twsrc%5Etfw">December 18, 2021&lt;/a>&lt;/blockquote>
+&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">College is a scam, you don’t need it.&lt;br>&lt;br>- Stanford ‘00, ‘04, ‘05, ‘06 &lt;a href="https://t.co/VonzG04L0I">https://t.co/VonzG04L0I&lt;/a>&lt;/p>&amp;mdash; Balaji (@balajis) &lt;a href="https://twitter.com/balajis/status/1472209100536614914?ref_src=twsrc%5Etfw">December 18, 2021&lt;/a>&lt;/blockquote>
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
 &lt;p>This isn&amp;rsquo;t exactly a new sentiment among tech leaders, but the idea&amp;rsquo;s recent resurgence got me thinking about the worth of a college degree in the modern U.S. Let&amp;rsquo;s break down &lt;a href="https://balajis.com/">Balaji Srinivasan&lt;/a>&amp;rsquo;s statement above.&lt;/p>
 &lt;h2 id="scam-is-harsh-but" >&amp;ldquo;Scam&amp;rdquo; is harsh, but&amp;hellip;
@@ -307,11 +376,11 @@ slave to your head and to your natural default setting of being uniquely,
 completely, imperially alone day in and day out.&lt;/p>
 &lt;p>&amp;ndash; &lt;em>This is Water by David Foster Wallace&lt;/em>&lt;/p>
 &lt;/blockquote>
-&lt;section class="footnotes" role="doc-endnotes">
+&lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
+&lt;li id="fn:1">
 &lt;p>If your dream is to become a doctor or lawyer, where you&amp;rsquo;re usually legally obligated to have a certain college degree, expect to be laughed out of every interview. If you ever manage to get that far.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item></channel></rss>
+&lt;/div></description></item></channel></rss>
