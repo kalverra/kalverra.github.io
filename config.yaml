@@ -5,6 +5,7 @@ theme: "anubis"
 paginate: 15
 enableRobotsTXT: true
 googleAnalytics: G-76ECS8F1DQ
+enableEmoji: true
 
 menu:
   main:
