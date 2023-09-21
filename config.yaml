@@ -62,8 +62,6 @@ params:
   social:
     - id: github
       name: kalverra
-    - id: twitter
-      name: kalverra
     - id: linkedin
       name: adam-hamrick-8b1866116
   mainSections:
