@@ -56,7 +56,7 @@ params:
   disableSummary: false
   dateFormat: "2006-01-02"
   paginationSinglePost: true
-  style: dark
+  style: auto
   readMore: false
   copyCodeButton: true
   rssAsSocialIcon: true

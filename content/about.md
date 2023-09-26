@@ -10,13 +10,13 @@ showToc: false
 
 I'm Adam, a Software Engineer currently working on [Chainlink](https://chain.link/) (anything I say is personal opinion, etc...). You can check out my work on my [GitHub](https://github.com/kalverra) and [LinkedIn](https://www.linkedin.com/in/adam-hamrick-8b1866116/).
 
-I used to pride myself on my writing ability, but in recent years have been mainly writing in programming languages and less English. So, partially wanting to improve my writing, and partially inspired by [this Paul Graham essay](http://www.paulgraham.com/words.html), I decided to start this. I’m making it public to force some accountability. And who knows, maybe someday I’ll say something interesting enough that someone other than my mom will want to read it.
+Partially wanting to improve my writing, and partially inspired by [this Paul Graham essay](http://www.paulgraham.com/words.html), I decided to start this. I’m making it public to force some accountability. And who knows, maybe someday I’ll say something interesting enough that someone other than my mom will want to read it.
 
 ## What I'm Doing Now
 
 1. :man_office_worker: Working on [Chainlink](https://chain.link/), namely focusing on improving our quality standards, automated testing and release process, and ensuring that we actually work on all the chains we want to work on. It's hard, interesting work that I'm passionate about.
 2. :graduation_cap: Taking [MIT's Distributed Systems](https://github.com/kalverra/mit-distributed-systems) course on my weeknights. I've learned a lot of these concepts as a consequence of work, but feel a more formal, academic approach could be helpful.
-3. :person_lifting_weights: I've taken up weightlifting again after a long hiatus of injury, laziness, and COVID.
+3. :person_lifting_weights: I've taken up regular weightlifting again after a long hiatus of injury, laziness, and COVID.
 4. :book: [Reading](https://www.goodreads.com/user/show/110709291-adam-hamrick) when I can. Right now it's sporadic, and focused on making myself more productive. [The Power of Habit](https://www.goodreads.com/book/show/12609433-the-power-of-habit) and [Atomic Habits](https://www.goodreads.com/book/show/40121378-atomic-habits).
 
 ## What I Want to Do Soon

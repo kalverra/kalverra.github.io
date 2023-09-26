@@ -48,7 +48,7 @@ Some professions and organizations are tolerant with hiring self-taught people, 
 
 This is not to say this is a fair position for society to take. It's also not implying that the piece of paper, and the requisite acknowledgement of your competence from corporate America, is all that college is good for (we'll get to that later). It's to say that in today's world, there's far cheaper and more effective ways to obtain an education, but corporate America is slow to adapt. So the traditional degree is largely still a requirement, even if it's not the most optimal way to prepare for the workforce.
 
-![William Doors](https://media.gatesnotes.com/-/media/Images/Articles/Health/How-to-Prevent-the-Next-Pandemic/homepage-hero_568x408.ashx)
+![William Doors](https://en.wikipedia.org/wiki/Bill_Gates#/media/File:Bill_Gates_2017_(cropped).jpg)
 
 People always like to point to [Bill Gates](https://en.wikipedia.org/wiki/Bill_Gates) (or [Zuckerberg](https://en.wikipedia.org/wiki/Mark_Zuckerberg) or [Dell](https://en.wikipedia.org/wiki/Michael_Dell)) as a reason to not go to college, it obviously worked out for him. His path is not a consistent one to emulate, and Bill himself encourages people to [not be like him](https://www.gatesnotes.com/Education/11-Million-College-Grads). These people are the results of exceptional intelligence, motivation, and luck. Lacking any of those three will lead to failure for 99% of people.
 
