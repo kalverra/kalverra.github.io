@@ -1,9 +1,9 @@
 ---
 title: "Review: The Power of Habit"
-date: 2023-09-30
+date: 2023-10-16
 draft: false
 categories: ["books"]
-tags: ["habits", "review"]
+tags: ["psychology", "review"]
 description: A review/summary of the book The Power of Habit
 summary: A review/summary of the book The Power of Habit.
 ---
