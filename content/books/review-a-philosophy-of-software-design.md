@@ -8,7 +8,7 @@ description: A review/summary of the book A Philosophy of Software Design.
 summary: A review/summary of the book A Philosophy of Software Design.
 ---
 
-[A Philosophy of Software Design by John Ousterhout](https://www.goodreads.com/en/book/show/39996759) is a wide ranging, highly opinionated look at general software design practices and how to best implement them. It ranges from big-picture musings on "The Nature of Complexity", down to seemingly miniscule squabbles around "Choosing Names" for variables and methods.
+[A Philosophy of Software Design by John Ousterhout](https://www.goodreads.com/en/book/show/39996759) is a wide ranging, highly opinionated look at general software design practices and how to best implement them. It vacillates from big-picture musings on "The Nature of Complexity", down to seemingly miniscule squabbles around "Choosing Names" for variables and methods.
 
 ## The Author
 

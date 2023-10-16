@@ -17,7 +17,7 @@ Partially wanting to improve my writing, and partially inspired by [this Paul Gr
 1. :man_office_worker: Working on [Chainlink](https://chain.link/), namely focusing on improving our quality standards, automated testing and release process, and ensuring that we actually work on all the chains we want to work on. It's hard, interesting work that I'm passionate about.
 2. :graduation_cap: Taking [MIT's Distributed Systems](https://github.com/kalverra/mit-distributed-systems) course on my weeknights. I've learned a lot of these concepts as a consequence of work, but feel a more formal, academic approach could be helpful.
 3. :person_lifting_weights: I've taken up regular weightlifting again after a long hiatus of injury, laziness, and COVID.
-4. :book: [Reading](https://www.goodreads.com/user/show/110709291-adam-hamrick) when I can. Right now it's sporadic, and focused on making myself more productive. [The Power of Habit](https://www.goodreads.com/book/show/12609433-the-power-of-habit) and [Atomic Habits](https://www.goodreads.com/book/show/40121378-atomic-habits).
+4. :book: [Reading](https://www.goodreads.com/user/show/110709291-adam-hamrick) when I can. Right now it's sporadic, and focused on making myself more productive, thought I'm taking a small detour and pre-ordered [Michael Lewis's new book about Sam Bankman-Fried](https://www.goodreads.com/book/show/149105520-going-infinite).
 
 ## What I Want to Do Soon
 
