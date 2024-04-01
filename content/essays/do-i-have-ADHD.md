@@ -114,7 +114,7 @@ It’s important to note that drugs aren’t a panacea. They unlock your ability
 
 These vary wildly in effectiveness and have all sorts of issues as they’re unregulated, and frequently a [favorite of fraudsters](https://www.fda.gov/consumers/health-fraud-scams/health-fraud-product-database) to separate fools and cash from each other. That said, there are some that have minor but demonstrated helpful effects:
 
-- [Caffeine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8875377/) can almost function like a micro does of Adderall for some people.
+- [Caffeine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8875377/) can almost function like a micro doses of Adderall for some people.
 - [Creatine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6093191/) can help working memory. I mostly take it for muscle growth, but it has some small benefits to cognitive tasks.
 - Fish Oil, specifically [Omega-3s](https://www.additudemag.com/adhd-omega-3-benefits/), is particularly beneficial. There are a lot of claims about its benefits for heart health, and can apparently help a lot in focus and hyperactivity.
 - [Ashwagandha](https://www.nccih.nih.gov/health/ashwagandha) is a bit niche but apparently effective at [improving attention](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3221068/), though I personally haven’t seen much benefit.
