@@ -122,7 +122,7 @@ These vary wildly in effectiveness and have all sorts of issues as they’re unr
 
 ## What I Take Away from Writing This
 
-Well, I have ADHD. I think I'm ready to accept that. This was informative mostly for my own psyche, but on the miniscule chance that someone actually finds this, perhaps it can help them figure it out like I did. If you're in that position, I will say I wish I had tried the scarier sounding interventions like Adderall sooner. It was akin to wearing glasses for the first time, and not at all how I expected it to be.
+Well, I have ADHD. I think I'm ready to accept that. This was informative mostly for my own psyche, but on the miniscule chance that someone actually finds this, perhaps it can help them figure it out like I did. If you're in that position, I will say I wish I had tried the scarier sounding interventions like Adderall sooner. It was akin to wearing glasses for the first time, and not at all how I expected it to be. It's also tempting to think that discovering and treating something like this will ultimately "fix" you. It won't, but it will help a whole lot.
 
 [^1]: This could easily be due to the environment I was in at the time. The intricacies of ADHD still weren’t well understood at the time, especially outside of medical professionals. I was also a part of a school that held ADHD diagnoses with some suspicion, and I got the general vibe that most people didn’t believe it was a real thing. I thought I was just lazy or stupid.
 
