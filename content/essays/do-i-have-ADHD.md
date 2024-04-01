@@ -63,7 +63,7 @@ This is all true, but it ignores the fact that a diagnosis of something does not
 
 There is a psychological phenomenon called the [Forer Effect](https://en.wikipedia.org/wiki/Barnum_effect) that I’m afraid of falling into. It’s a tendency for people to interpret very general statements about the human experience as having deep personal insight into themselves. Statements like “You have a tendency to be critical of yourself” and “You have a great need for other people to like and admire you” are general enough they apply to everyone, but when you hear them it’s common to think it describes you in particular and feel a deep emotional reaction. It’s how psychics and mind readers [make so much money](https://www.statista.com/statistics/1224176/psychic-services-market-size-us/) tricking you into thinking they have a particularly deep insight into your pysche.
 
-But ADHD symptoms don’t seem to have that quality. There are some that are pretty general ones like, “You often feel overwhelmed when a lot is expected of you at once”, but others that are much more specific like, “You find it incredibly difficult to finish a task, even if the hardest parts are already done” or “You often feel overly active and compelled to do things, like you were driven by a motor.”
+But ADHD symptoms don’t seem to have that quality. There are some that are pretty general like, “You often feel overwhelmed when a lot is expected of you at once”, but others that are much more specific like, “You find it incredibly difficult to finish a task, even if the hardest parts are already done” or “You often feel overly active and compelled to do things, like you were driven by a motor.”
 
 ## Why Is It a Problem?
 
@@ -77,7 +77,7 @@ It also makes me anxious and [depressed consistently](./working-through-depressi
 
 ## How Do I Fix It?
 
-My main complaint is lack of focus, specifically lacking consistent and controlled focus. I’m blessed with a flexible schedule, but it’s not flexible enough to let me sit around all day and wait for inspiration. So I need to focus (hehe) on solving that aspect. Other parts of my ADHD have proven useful in my life and career though, so ideally we can keep both around.
+My main complaint is lack of focus, specifically lacking consistent and controlled focus. I’m blessed with a flexible schedule, but it’s not flexible enough to let me sit around all day and wait for inspiration. So I need to focus (hehe) on solving that aspect. Other parts of my ADHD have proven useful in my life and career, being able to swap between a ton of things with little friction has led me to some interesting learning experiences.
 
 ### The Usuals
 
@@ -99,7 +99,7 @@ I’ve heard anecdotally about people who become so dependent on Adderall that t
 
 ![My tracked focus hours at work. Guess what day I started taking Adderall](/images/do-i-have-adhd/focus_hours.png "My tracked focus hours at work. Guess what day I started taking Adderall")
 
-### Behavioral
+### Behavioral Interventions
 
 It’s important to note that drugs aren’t a panacea. They unlock your ability to concentrate, but if you let yourself you can easily lock into learning about freshwater sharks all day instead of that program you need to write. Thankfully I’ve been working on these for a while[^2] and have a pretty good stable of mental and tech tools that work for me.
 
@@ -107,8 +107,8 @@ It’s important to note that drugs aren’t a panacea. They unlock your ability
 - Using [Pomofocus](https://pomofocus.io/app) for my Pomodoro timers.
 - Using [Blocksite](https://blocksite.co/) to stop myself from going into unproductive rabbit holes.
 - Meditation and mindfulness are [helpful for ADHD people](https://www.additudemag.com/how-to-meditate-for-adhd-symptoms/). It’s been very effective for me to recognize when my attention is drifting and guiding it back to the thing I need to focus on. It is also surprisingly difficult to do consistently, even for neurotypical people.
-- The [How to ADHD YouTube channel](https://www.youtube.com/@HowtoADHD) has a lot of strategies and tips for handling common ADHD hurdles, and it’s short-format, engaging videos that are ideal for, well, people with ADHD.
 - Aggressively silencing notifications. During a Pomodoro session, I’ll make sure to put my phone on DND and stash it somewhere I can’t see it. Then on Slack, I’ll set my status to “Focusing” and pause notifications.
+- The [How to ADHD YouTube channel](https://www.youtube.com/@HowtoADHD) has a lot of strategies and tips for handling common ADHD hurdles, and it’s short-format, engaging videos that are ideal for, well, people with ADHD.
 
 ### Supplements
 
@@ -118,7 +118,11 @@ These vary wildly in effectiveness and have all sorts of issues as they’re unr
 - [Creatine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6093191/) can help working memory. I mostly take it for muscle growth, but it has some small benefits to cognitive tasks.
 - Fish Oil, specifically [Omega-3s](https://www.additudemag.com/adhd-omega-3-benefits/), is particularly beneficial. There are a lot of claims about its benefits for heart health, and can apparently help a lot in focus and hyperactivity.
 - [Ashwagandha](https://www.nccih.nih.gov/health/ashwagandha) is a bit niche but apparently effective at [improving attention](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3221068/). Though I personally haven’t seen much benefit.
-- [L-theanine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6574559/) is usually combined with a stimulant like caffeine or Adderall to help attention. There’s some anecdotal evidence out there and a few studies with small sample sizes.
+- [L-theanine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6574559/) is usually combined with a stimulant like caffeine or Adderall to help attention. There’s some anecdotal evidence out there and a few studies with small sample sizes. I haven't tried it myself, but it might be next on the list.
+
+## What I Take Away from Writing This
+
+Well, I have ADHD. I think I'm ready to accept that. This was informative mostly for my own psyche, but on the miniscule chance that someone actually finds this, perhaps it can help them figure it out like I did.
 
 [^1]: This could easily be due to the environment I was in at the time. The intricacies of ADHD still weren’t well understood at the time, especially outside of medical professionals. I was also a part of a school that held ADHD diagnoses with some suspicion, and I got the general vibe that most people didn’t believe it was a real thing. I thought I was just lazy or stupid.
 
