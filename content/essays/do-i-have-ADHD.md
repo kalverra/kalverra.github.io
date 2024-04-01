@@ -77,7 +77,7 @@ It also makes me anxious and [depressed consistently](./working-through-depressi
 
 ## How Do I Fix It?
 
-My main complaint is lack of focus, specifically lacking consistent and controlled focus. I’m blessed with a flexible schedule, but it’s not flexible enough to let me sit around all day and wait for inspiration. So I need to focus (hehe) on that aspect. Other parts of my ADHD have proven useful in my life and career though, so ideally we can keep both around.
+My main complaint is lack of focus, specifically lacking consistent and controlled focus. I’m blessed with a flexible schedule, but it’s not flexible enough to let me sit around all day and wait for inspiration. So I need to focus (hehe) on solving that aspect. Other parts of my ADHD have proven useful in my life and career though, so ideally we can keep both around.
 
 ### The Usuals
 
