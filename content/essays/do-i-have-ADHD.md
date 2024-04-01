@@ -117,7 +117,7 @@ These vary wildly in effectiveness and have all sorts of issues as they’re unr
 - [Caffeine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8875377/) can almost function like a micro does of Adderall for some people.
 - [Creatine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6093191/) can help working memory. I mostly take it for muscle growth, but it has some small benefits to cognitive tasks.
 - Fish Oil, specifically [Omega-3s](https://www.additudemag.com/adhd-omega-3-benefits/), is particularly beneficial. There are a lot of claims about its benefits for heart health, and can apparently help a lot in focus and hyperactivity.
-- [Ashwagandha](https://www.nccih.nih.gov/health/ashwagandha) is a bit niche but apparently effective at [improving attention](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3221068/). Though I personally haven’t seen much benefit.
+- [Ashwagandha](https://www.nccih.nih.gov/health/ashwagandha) is a bit niche but apparently effective at [improving attention](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3221068/), though I personally haven’t seen much benefit.
 - [L-theanine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6574559/) is usually combined with a stimulant like caffeine or Adderall to help attention. There’s some anecdotal evidence out there and a few studies with small sample sizes. I haven't tried it myself, but it might be next on the list.
 
 ## What I Take Away from Writing This
