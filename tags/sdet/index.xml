@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sdet on Adam's Writing Thing</title><link>https://kalverra.github.io/tags/sdet/</link><description>Adam's Writing Thing (Sdet)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 05 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kalverra.github.io/tags/sdet/index.xml" rel="self" type="application/rss+xml"/><item><title>Being a Great SDET</title><link>https://kalverra.github.io/programming/good-testers-are-good-devs/</link><pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate><guid>https://kalverra.github.io/programming/good-testers-are-good-devs/</guid><description>&lt;h2 id="what-an-sdet-does" >What an SDET Does
+&lt;span>
+&lt;a href="#what-an-sdet-does">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>An SDET is a bit of a niche position in the tech world that focuses on testing software. You don&amp;rsquo;t have the time or resources to wait for a team of manual testers figure out what you broke every time you refactor a method. So instead, you get a couple SDETs like myself to write a program to test your system with blazing speed. So every time you move a button to the left a bit, you can be sure that you didn&amp;rsquo;t somehow also break half of your site. Most of SDETS work with developers and manual testers, figuring out how the system SHOULD work, and then finding a way to programmatically ensure that.&lt;/p>
+&lt;h2 id="what-an-sdet-needs-to-be-good-at" >What an SDET Needs to Be Good At
+&lt;span>
+&lt;a href="#what-an-sdet-needs-to-be-good-at">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>Development.&lt;/p>
+&lt;p>That&amp;rsquo;s number 1, without a doubt. An SDET&amp;rsquo;s goal is to test a system quickly and thoroughly, and to do that you need to design a program that can do all the following:&lt;/p>
+&lt;ul>
+&lt;li>Run as quickly as possible&lt;/li>
+&lt;li>Concisely report what went wrong and why&lt;/li>
+&lt;li>Easily understood by other developers and testers who want to test it&lt;/li>
+&lt;li>Is easily expandable to account for new features and test cases&lt;/li>
+&lt;/ul>
+&lt;p>All these traits require you to develop good software. The only big difference between an SDET and a typical developer is the goal and customers. Your goal is to find all the ways the system can break, and your customers are the developers who need to know what&amp;rsquo;s breaking so they can fix it.&lt;/p>
+&lt;p>The second most important skill is where the testing mindset comes into play. You need to be good at spotting edge cases, covering scenarios where things might fall apart, and prioritizing the tests that will bring the team the greatest amount of value. This all means gaining a deep understanding of how the system you&amp;rsquo;re testing works.&lt;/p>
+&lt;p>It&amp;rsquo;s not for everyone, you&amp;rsquo;re rarely the star of the show. I often describe it as playing the support or healing character in a role-playing game. You&amp;rsquo;re rarely at the front of everyone&amp;rsquo;s mind, but when you&amp;rsquo;re not around, it&amp;rsquo;s immediately evident.&lt;/p></description></item></channel></rss>

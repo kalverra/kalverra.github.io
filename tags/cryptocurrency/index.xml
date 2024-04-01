@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cryptocurrency on Adam's Writing Thing</title><link>https://kalverra.github.io/tags/cryptocurrency/</link><description>Adam's Writing Thing (Cryptocurrency)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 05 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kalverra.github.io/tags/cryptocurrency/index.xml" rel="self" type="application/rss+xml"/><item><title>Cryptocurrencies For the Non-Technical</title><link>https://kalverra.github.io/tech-explainers/cryptocurrencies/</link><pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate><guid>https://kalverra.github.io/tech-explainers/cryptocurrencies/</guid><description>&lt;p>Cryptocurrencies have entered the public consciousness. Super Bowl 56 aired ads from &lt;a href="https://www.npr.org/2022/02/14/1080237873/superbowl-ads-crypto-bitcoin">cryptocurrency companies&lt;/a>, and sports stadiums have been named after &lt;a href="https://www.nbcsports.com/washington/nationals/nationals-accept-cryptocurrency-ballpark-early-2023-season">similar&lt;/a> &lt;a href="https://en.wikipedia.org/wiki/Crypto.com_Arena">organizations&lt;/a>. Local and national news outlets&amp;rsquo; coverage of these events — laden with technical jargon that is often laughably misused — often makes audiences turn to their nearest tech-literate acquaintance and ask, &amp;ldquo;what are those exactly?&amp;rdquo;. As a member of the the tech-literate, I&amp;rsquo;m consistently disappointed with my answer to this question. It&amp;rsquo;s often half-assed and satisfies neither me nor my less-than-captive audience. So here&amp;rsquo;s my attempt at a high-quality answer.&lt;/p>
+&lt;p>&lt;strong>Disclaimer&lt;/strong>: I&amp;rsquo;ve been working seriously in the cryptocurrency space for a little over a year. That&amp;rsquo;s a relatively long time given how new this tech is, but I&amp;rsquo;m not an expert. Also, while I work on a cryptocurrency project, all opinions are solely my own, and I&amp;rsquo;m sure my co-workers would vehemently argue against at least a few of them.&lt;/p>
+&lt;h2 id="how-they-work" >How They Work
+&lt;span>
+&lt;a href="#how-they-work">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>You don&amp;rsquo;t need to know how cryptocurrencies work to use them; just like you can use your credit card without intimate knowledge of how the banking system works. As the technology matures, it will become simpler for the layperson to use and understand. It&amp;rsquo;s for this reason that I find most cryptocurrency explanations to a general audience lean far too technical. That&amp;rsquo;s because a lot of the people in this space are tech nerds, and the tech behind cryptocurrencies is revolutionary and complex, so tech nerds believe that&amp;rsquo;s the part everyone is interested about. In reality, such explanations quickly devolve into acronyms and esoteric computer terms that bore audiences to sleep. So I&amp;rsquo;ll keep the explanation on &lt;em>how&lt;/em> this tech works brief: Math&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Primarily a study of math and computer science called &lt;a href="https://youtu.be/jhXCTbFnK8o">cryptography&lt;/a>, thus the name &lt;em>crypto-currencies&lt;/em> (often abbreviated to &lt;em>crypto&lt;/em>).&lt;/p>
+&lt;p>An important aspect to understand is that cryptocurrencies live on a &lt;a href="https://en.wikipedia.org/wiki/Blockchain">blockchain&lt;/a>. A blockchain is&amp;hellip; well a chain of blocks, each block containing a record of transactions between people. New transactions get put into these blocks and added on to the chain. There is no single, capital B blockchain, and multiple currencies can live on a single chain. Most people have heard of&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> the O.G. chain and currency, &lt;a href="https://bitcoin.org/en/">Bitcoin&lt;/a>, but there are hundreds more blockchains and millions more currencies now. Many in the crypto community actually consider Bitcoin a bit of a relic&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>, and the blockchain technology most people are working on now is &lt;a href="https://ethereum.org/en/">Ethereum&lt;/a>.&lt;/p>
+&lt;h2 id="why-theyre-important" >Why They&amp;rsquo;re Important
+&lt;span>
+&lt;a href="#why-theyre-important">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>Cryptocurrencies have some unique traits that distinguish them from normal currencies, primarily that they are decentralized. Unlike typical currencies, there is no central entity that controls the currency or its operation&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. No government or bank can decide to print more or less of the currency, and if you want to change how the currency is issued or operates, you usually need to propose such changes for a vote by the community. And if a government wants to shut down or ban cryptocurrencies, it&amp;rsquo;s near impossible, as the people operating the blockchain are scattered around the world, and hard to find anyway.&lt;/p>
+&lt;p>The blockchain world is also predicated on the idea of trustless technologies. You can mathematically verify everything, read the code of companies you interact with, and &lt;a href="https://etherscan.io/">see every program and transaction&lt;/a> that happens on the blockchain&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. You may say &amp;ldquo;I don&amp;rsquo;t know the math, I&amp;rsquo;m just trusting you that&amp;rsquo;s the case!&amp;rdquo;. Sure, but you can learn the math, or go to another person that knows the math, or use a program that confirms it. Whereas no matter how long I ask Goldman Sachs to show me their books, they keep blowing me off, telling me disrespectful things like &amp;ldquo;who are you?&amp;rdquo; and &amp;ldquo;please stop drinking liquor and yelling at our office&amp;rdquo;&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. On a blockchain you can see every transaction your bank or government or anyone has ever made, all while drinking liquor and yelling at your cellphone instead of a big office building.&lt;/p>
+&lt;p>It&amp;rsquo;s not just transactions that happen on this public chain, but also programs. You can write a program (called a &lt;a href="https://ethereum.org/en/developers/docs/smart-contracts/">smart contract&lt;/a>) and put it on the blockchain as well. From there, anyone in the world can read the code of the program and execute it if they so choose. This enables entire companies and governments to operate on the blockchain, putting their products and services out for anyone on the chain to use.&lt;/p>
+&lt;p>This is a fundamental shift in not only how currencies usually work, but also how technology usually works&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. Any time something like that happens, the tech and finance nerds emerge from their basements to tell anyone and everyone about it. It&amp;rsquo;s especially exciting because the banking industry has long been behind the times when it comes to technical innovation, and this crypto business has thrown a giant wrench in the normal state of affairs for them.&lt;/p>
+&lt;p>What if you trust your government or bank to make good monetary decisions? Well, I&amp;rsquo;d encourage you to be a &lt;a href="https://foreignpolicy.com/2021/01/28/report-transparency-international-corruption-worst-decade-united-states/">bit less trusting&lt;/a>, but also to realize that many people don&amp;rsquo;t have that option. Cryptocurrencies and smart contracts enable people in developing countries — who typically have low trust in their country&amp;rsquo;s government and businesses — to use services like &lt;a href="https://www.coindesk.com/business/2021/12/14/accuweather-taps-chainlink-to-explore-crop-insurance-and-more/">crop insurance&lt;/a> without fear of being scammed or having the terms of their contracts change
+on a whim. These benefits will start to become more and more attractive in more developed countries as businesses and governments see that they can reduce risks with them.&lt;/p>
+&lt;p>What if you &lt;strong>want&lt;/strong> your transactions to be private? Well, you&amp;rsquo;re in luck, everything on blockchains is pseudonymous. Transactions don&amp;rsquo;t look like &lt;code>Adam paid Meg $5&lt;/code>. &lt;a href="https://etherscan.io/tx/0x01e2784e34ff05d1cf01a8d8dfe6fddbdce2e1495f3056973d8f81c2b5e72dfa">Here&amp;rsquo;s a recent transaction&lt;/a> on Ethereum:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-txt" data-lang="txt">&lt;span style="display:flex;">&lt;span>0xa15a3dda54758f447ce55873d46103cc860ca0f9
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>paid
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>0xa57976422edafff7d3545a6b58150afdd9e59faf
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>0.021 Ether ($63.50)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;code>0xa15a3dda54758f447ce55873d46103cc860ca0f9&lt;/code> is an address, and that is how you send money around in a blockchain, by sending from your address to others. They function a bit like usernames on sites like Reddit or Twitter. You can make it your real name if you like, or just name yourself &lt;code>420cat420&lt;/code> and leave it at that.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Here&amp;rsquo;s primarily where we step into &amp;ldquo;Adam&amp;rsquo;s Personal Opinion Zone&amp;rdquo;. Ye be warned.&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h2 id="what-they-could-become" >What They Could Become
+&lt;span>
+&lt;a href="#what-they-could-become">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>Most people&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup> working in the space see cryptocurrencies as a turning point in tech and society, much like the internet was. In fact, many call the world of blockchains and cryptocurrencies &amp;ldquo;Web 3.0&amp;rdquo;.&lt;/p>
+&lt;p>The counterpoint I most hear is that crypto is a fad, or a solution looking for a problem.&lt;/p>
+&lt;p>
+&lt;img src="https://i.imgur.com/sNebp1W.gif" alt="Yeah? Well, you know, that&amp;amp;rsquo;s just like, your opinion, man">
+&lt;/p>
+&lt;p>At a minimum, cryptocurrencies have, and will, further disrupt how transactions work. There&amp;rsquo;s a massive infrastructure dedicated to moving money around that is antiquated, slow, and only gets more complicated when you cross national borders. These are all classic indicators that technology can optimize and replace the current system. Cryptocurrencies do things — like confirm payments — in seconds that take traditional banking and finance days.&lt;/p>
+&lt;p>People sometimes scoff at cryptocurrencies as a stupid tech nerd thing that isn&amp;rsquo;t useful to them. To that, I present to you a clip of Bill Gates trying to explain the internet to David Letterman in 1995.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/gipL_CEw-fk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>Doesn&amp;rsquo;t sound too revolutionary does it? Bill Gates, the king of computer nerds and one of the greatest businessmen in the world, was only able to think of radio and email as the future of the internet. Back then it was normal to be skeptical of this nerdy internet thing, but if you ask &amp;ldquo;what is that internet thing anyway?&amp;rdquo; you&amp;rsquo;re typically met with looks of confusion or pity. Back then it was a niche technology that only nerds got excited about, and now the internet dominates our modern society.&lt;/p>
+&lt;p>But there&amp;rsquo;s a problem with the internet today: ads. They are the reason Google makes $257.6 billion a year, and they are the reason why tech companies like Google collect a &lt;a href="https://youtu.be/wqn3gR1WTcA">frightening amount of information&lt;/a> about you. Targeting ads based on your personal data is a lucrative business, and a precursor to some dystopian &lt;a href="https://www.goodreads.com/book/show/5470.1984">1984&lt;/a> shit. You remember how terrifying that book was? Or how dark the SparkNotes summary sounded when you were cramming before that 10th grade English class? Cryptocurrencies and blockchains enable different profit models, ones that don&amp;rsquo;t depend on collecting your personal data and selling it to the highest bidder.&lt;/p>
+&lt;p>Humans are notoriously bad at predicting the future, so only time will tell the truth. But some exciting areas that cryptocurrencies could revolutionize include &lt;a href="https://vitalik.ca/general/2021/05/25/voting2.html">voting&lt;/a>, &lt;a href="https://vitalik.ca/general/2021/10/31/cities.html">cities&lt;/a>, &lt;a href="https://blog.chain.link/blockchain-insurance/">insurance&lt;/a>, banks, and modern internet infrastructure.&lt;/p>
+&lt;h2 id="faq" >FAQ
+&lt;span>
+&lt;a href="#faq">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;h3 id="how-can-i-use-them-right-now" >How Can I Use Them Right Now?
+&lt;span>
+&lt;a href="#how-can-i-use-them-right-now">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>I suspect things will drastically change in the next 10 or 20 years, but for now the use of these technologies is primarily regulated to early-adopters and builders that are deep into technology or finance. Things like currency exchanges, loans, gambling, and video games&lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup> dominate the current crypto world, and most of them require some detailed tech knowledge to use correctly. There&amp;rsquo;s not much, that I know of, for the casual observer to do with the crypto world, &lt;em>right now&lt;/em>.&lt;/p>
+&lt;h3 id="nfts" >NFTs?
+&lt;span>
+&lt;a href="#nfts">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>I think current iterations are kinda dumb.&lt;/p>
+&lt;p>For those uninitiated to the latest tech news cycle, blockchain technology enables owning not only currency, but damn near anything. Currency is &lt;a href="https://www.investopedia.com/terms/f/fungibility.asp#:~:text=Key%20Takeaways-,Fungibility%20is%20the%20ability%20of%20a%20good%20or%20asset%20to,houses%2C%20are%20non%2Dfungible.">fungible&lt;/a>, meaning that a one dollar bill isn&amp;rsquo;t worth more than another one dollar bill. As far as the typical consumer is concerned, they&amp;rsquo;re identical in value and usage. NFTs are &lt;strong>N&lt;/strong>on-&lt;strong>F&lt;/strong>ungible &lt;strong>T&lt;/strong>okens, meaning they&amp;rsquo;re unique.&lt;/p>
+&lt;p>All this is to say that you can use blockchain tech to show your ownership of unique objects like &lt;a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq">art&lt;/a>. Frankly, the art market &lt;a href="https://freakonomics.com/podcast/a-fascinating-sexy-intellectually-compelling-unregulated-global-market/">could use some disruption&lt;/a>, but what troubles me is how the crypto community tries to proselytize art NFTs as the big crypto thing. NFTs have some interesting uses like replacing typical land and house deeds, but showing people a picture of a cruddy, pixilated avatar and saying &amp;ldquo;see, the future!&amp;rdquo; is, at the least, lacking in creativity. It seems to me like trying to convince someone that Baseball is a cool sport to watch, and then showing them all you baseball trading cards to convince them.&lt;/p>
+&lt;h3 id="environmental-impact" >Environmental Impact?
+&lt;span>
+&lt;a href="#environmental-impact">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>It&amp;rsquo;s not great. The process most blockchains use to operate is a &lt;a href="https://ethereum.org/en/developers/docs/consensus-mechanisms/">consensus mechanism&lt;/a> called Proof-of-Work, which entails people running very expensive and energy inefficient programs&lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup> on their computers. But, there&amp;rsquo;s hope that this will change soon. Proof-of-Stake is a method that blockchains can use that consumes 99% less electricity, and most new chains use it. Others like Ethereum are &lt;a href="https://www.technologyreview.com/2022/03/04/1046636/ethereum-blockchain-proof-of-stake/#:~:text=Of%20course%2C%20Ethereum's%20move%20to,such%20a%20model%20is%20complex.">actively working&lt;/a> to switch to this system.&lt;/p>
+&lt;h3 id="money-laundering" >Money Laundering?
+&lt;span>
+&lt;a href="#money-laundering">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>It&amp;rsquo;s harder than you think. The blockchain is completely open, and a permanent record of every transaction ever made. Money launderers aren&amp;rsquo;t huge fans of having all their transactions publicly available by any FBI agent or teenager who cares to take a look. That said, blockchains are &lt;a href="https://www.thefreedictionary.com/pseudononymous">pseudonymous&lt;/a>, meaning that you can easily hide your real-life identity on the blockchain, but there&amp;rsquo;s not a lot of options for turning your crypto currency into hard cash without alerting the government.&lt;/p>
+&lt;h3 id="hacks-and-scams" >Hacks and Scams?
+&lt;span>
+&lt;a href="#hacks-and-scams">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>Scams are unfortunately common in the crypto world right now. This is a symptom of the technology being new, and people not really knowing how things work. Most of them essentially boil down to &amp;ldquo;we&amp;rsquo;re the password police and need to ask you some questions&amp;rdquo;. Hopefully improving the user experience and knowledge will improve things.&lt;/p>
+&lt;p>Hacks in the crypto world are currently getting a lot of publicity thanks to the massive amounts of money that are being stolen. This is another symptom of new technology, meaning that people are still figuring out the pitfalls and security loopholes. Blockchain tech also has the unique property of being totally open, meaning that a hacker can often see all the code of the thing they&amp;rsquo;re trying to hack, information that most hackers would kill for. It also means that people know when these hacks happen immediately, as all these things are public. A lot of companies, when hacked, will do their best to cover it up. Cryptocurrency projects lack that privilege.&lt;/p>
+&lt;h3 id="taxes" >Taxes?
+&lt;span>
+&lt;a href="#taxes">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>It&amp;rsquo;s&amp;hellip; complicated. Most tax lawyers don&amp;rsquo;t know what&amp;rsquo;s going on most of the time, and legislation is changing all the time. Suffice to say that any time you turn cryptocurrency into real cash, the government knows, and will ask for their cut.&lt;/p>
+&lt;h3 id="dogecoin-and-elon-musk" >Dogecoin and Elon Musk?
+&lt;span>
+&lt;a href="#dogecoin-and-elon-musk">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>It&amp;rsquo;s also complicated, but less so. &lt;a href="https://en.wikipedia.org/wiki/Dogecoin">Dogecoin&lt;/a> is a cryptocurrency that was created as a sort of in-joke among crypto people. It doesn&amp;rsquo;t serve any purpose except as a weird techie joke, and it hit mainstream recognition when Elon Musk &lt;a href="https://abcnews.go.com/Business/dogecoin-rallies-elon-musk-tweet/story?id=82265024">tweeted&lt;/a> about it. People got it in their minds that since tech genius Elon Musk was talking about Dogecoin, it must be a sound investment. It&amp;rsquo;s not. He was either joking, or &lt;a href="https://vitalik.ca/general/2021/05/23/scaling.html">is wrong&lt;/a>. There have been recent attempts to actually revive the project and turn it into something worthwhile, we&amp;rsquo;ll see where that goes.&lt;/p>
+&lt;h3 id="should-i-invest--what-should-i-invest-in" >Should I Invest / What Should I Invest In?
+&lt;span>
+&lt;a href="#should-i-invest--what-should-i-invest-in">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>I can&amp;rsquo;t tell you / I can&amp;rsquo;t tell you. I &lt;strong>can&lt;/strong> tell you that you should probably should invest in something, but for the majority of people, cryptocurrencies are probably not that something&lt;sup id="fnref:11">&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref">11&lt;/a>&lt;/sup>. The crypto markets are uniquely risky, and most currencies aren&amp;rsquo;t really designed to be investment vehicles anyway. There are thousands of YouTubers, bloggers, and podcasters that will promise untold crypto riches if you listen to their sure-thing advice where they show some fancy charts and make insane predictions. They&amp;rsquo;re lying, either to you or themselves.&lt;/p>
+&lt;p>There&amp;rsquo;s lots of speculation on cryptocurrency prices now, and currently not a whole lot of mainstream functionality exists, leading to more speculation of a possible &lt;a href="https://en.wikipedia.org/wiki/Dot-com_bubble">dot-com style bubble&lt;/a>. Suffice to say that if you&amp;rsquo;re reading this post to explain cryptocurrencies to a beginner, there are a lot more steps to take on educating yourself before you try to invest in these projects.&lt;/p>
+&lt;h3 id="im-interested-where-can-i-learn-more" >I&amp;rsquo;m interested, Where Can I Learn More?
+&lt;span>
+&lt;a href="#im-interested-where-can-i-learn-more">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>Chainlink has &lt;a href="https://www.smartcontracthub.dev/">set up a hub&lt;/a> to help people learn more about the tech. Chainlink Labs&amp;rsquo;s CEO, &lt;a href="https://twitter.com/sergeynazarov?lang=en">Sergey Nazarov&lt;/a>, did a &lt;a href="https://youtu.be/TPXTmVdlyoc">long interview&lt;/a> last year on these topics.&lt;/p>
+&lt;p>&lt;a href="https://en.wikipedia.org/wiki/Vitalik_Buterin">Vitalik Buterin&lt;/a>, the key figure behind Ethereum, does a lot of outreach. He has done &lt;a href="https://youtu.be/3x1b_S6Qp2Q">some&lt;/a> &lt;a href="https://youtu.be/XW0QZmtbjvs">interviews&lt;/a> that non-techies should find approachable. He also does some deep technical writing on &lt;a href="https://vitalik.ca/">his website&lt;/a>.&lt;/p>
+&lt;p>Gary Gensler, the current head of the SEC, taught a course at MIT on the finance side of blockchains and cryptocurrency that is available for free &lt;a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63UUkfL0onkxF6MYgVa04Fn">on YouTube&lt;/a>. It&amp;rsquo;s long, but invaluable resource.&lt;/p>
+&lt;h3 id="im-interested-how-can-i-work-on-this-stuff" >I&amp;rsquo;m Interested, How Can I Work On This Stuff?
+&lt;span>
+&lt;a href="#im-interested-how-can-i-work-on-this-stuff">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>You&amp;rsquo;re in luck, demand is high! Chainlink &lt;a href="https://chainlinklabs.com/careers">is hiring&lt;/a> for nearly everything right now, and there&amp;rsquo;s plenty of others &lt;a href="https://cryptocurrencyjobs.co/">looking for&lt;/a> eager employees.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>If you&amp;rsquo;d actually like to learn more deeply about the technology behind cryptocurrencies, check out &lt;a href="https://youtu.be/bBC-nXj3Ng4">this excellent video&lt;/a> that doesn&amp;rsquo;t require any background in math or computer science.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>Lots of people haven&amp;rsquo;t heard of &lt;a href="https://en.wikipedia.org/wiki/Satoshi_Nakamoto">Satoshi Nakamoto&lt;/a> though, the creator of the coin. Their story is an interesting one, because no one knows who they are. The name is a pseudonym, and there&amp;rsquo;s some guesses, but no definitive reveal as to who this person actually is (they also stopped posting in 2010). As such, some people in the crypto community elect to do something similar, and are only identified by their online profile names.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>Those who think Bitcoin is &lt;strong>not&lt;/strong> a relic often like to write mean things on the internet about people who say otherwise. It&amp;rsquo;s a whole culture war I won&amp;rsquo;t get into.&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>There are some rare situations where this isn&amp;rsquo;t the case, like when a company has their own private implementation, or when a scammer is trying to swindle you out of your money.&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5">
+&lt;p>&lt;a href="https://github.com/monero-project/monero">Monero&lt;/a> is a notable exception to this rule, but it&amp;rsquo;s rather fringe. It&amp;rsquo;s a cryptocurrency project that hides account balances and transactions.&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6">
+&lt;p>Those fascist pigs&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7">
+&lt;p>Not the drunkenly yelling at your cell phone though, that mostly stays the same.&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:8">
+&lt;p>It was far more common in the early days for anarchists and libertarians to assert that the invention of Bitcoin and similar currencies would be the turning point for revolution, that the world would now operate without governments entirely. The crypto community still skews libertarian by its nature, but most have disposed of the whole &amp;ldquo;completely dismantle all governments&amp;rdquo; idea. Most focus on just partially dismantling governments and mostly dismantling banks.&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:9">
+&lt;p>As an avid gamer, these are pretty lame. Personally I don&amp;rsquo;t think video games and cryptocurrencies will mix very well in the future, but I guess we&amp;rsquo;ll see.&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:10">
+&lt;p>This process often uses a specialized piece of computer hardware called a GPU, or graphics card. They&amp;rsquo;re typically used by people who do a lot of visual work on their computers like animations and 3D models. They&amp;rsquo;re also used by people like me who play a lot of video games on their computer. So I&amp;rsquo;m very eager for Proof-of-Stake to happen for not only environmental reasons, but also because people keep buying all the graphics cards and I cannot get one to play games with!&amp;#160;&lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:11">
+&lt;p>If you&amp;rsquo;d like to learn about investing strategies and how markets work, &lt;a href="https://www.goodreads.com/book/show/40242274-a-random-walk-down-wall-street">these&lt;/a> &lt;a href="https://www.goodreads.com/book/show/106835.The_Intelligent_Investor">books&lt;/a> &lt;a href="https://www.goodreads.com/book/show/38315.Fooled_by_Randomness">are&lt;/a> &lt;a href="https://www.goodreads.com/book/show/381355.The_Bogleheads_Guide_to_Investing">great&lt;/a>. Here&amp;rsquo;s a &lt;a href="https://www.reddit.com/r/personalfinance/wiki/investing">cheat-sheet&lt;/a> if you&amp;rsquo;re not quite that &lt;em>invested&lt;/em> in the topic.&amp;#160;&lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item></channel></rss>

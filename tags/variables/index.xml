@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Variables on Adam's Writing Thing</title><link>https://kalverra.github.io/tags/variables/</link><description>Adam's Writing Thing (Variables)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kalverra.github.io/tags/variables/index.xml" rel="self" type="application/rss+xml"/><item><title>Use Longer Fucking Variable Names</title><link>https://kalverra.github.io/programming/use-longer-fucking-variable-names/</link><pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate><guid>https://kalverra.github.io/programming/use-longer-fucking-variable-names/</guid><description>&lt;p>Really, please just do it. I see this crap in so many different repos, written by otherwise amazingly good developers. A recent &lt;a href="https://go.dev/">Go&lt;/a> example:&lt;/p>
+&lt;hr>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">p&lt;/span>, &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">picFunc&lt;/span>()
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;p>What the hell am I supposed to do with this? You know that computers have multiple terabytes of storage now right? What&amp;rsquo;s the bullshit excuse for just using &lt;code>e&lt;/code>?&lt;/p>
+&lt;hr>
+&lt;p>&lt;em>I&amp;rsquo;m saving storage space&lt;/em>&lt;/p>
+&lt;hr>
+&lt;p>You aren&amp;rsquo;t programming the goddamn space shuttle, it&amp;rsquo;s a bot that posts cat pictures on Instagram. You can spare a couple megabytes on your source code files.&lt;/p>
+&lt;hr>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">pic&lt;/span>, &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">picFunc&lt;/span>()
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;p>Okay better, but what&amp;rsquo;s the pic?&lt;/p>
+&lt;hr>
+&lt;p>&lt;em>The pic from the function&lt;/em>&lt;/p>
+&lt;hr>
+&lt;p>Just pretend I don&amp;rsquo;t know what you&amp;rsquo;re talking about, and imagine me asking you &amp;ldquo;what the hell are you talking about?&amp;rdquo;.&lt;/p>
+&lt;hr>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">thePicFromThePicFunc&lt;/span>, &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">picFunc&lt;/span>()
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;p>&amp;hellip;&lt;/p>
+&lt;hr>
+&lt;p>&lt;em>I don&amp;rsquo;t understand what you want from me&lt;/em>&lt;/p>
+&lt;hr>
+&lt;p>Try to consider some descriptions of the object that the variable is pointing to. Imagine I&amp;rsquo;m constantly asking you what the variable is for, how it can be used, and why you need it.&lt;/p>
+&lt;hr>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">thePicFromThePicFuncThatHoldsAPicToUseForLater&lt;/span>, &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">picFunc&lt;/span>()
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;p>Okay, let&amp;rsquo;s maybe just concentrate on &lt;strong>what&lt;/strong> a &lt;code>pic&lt;/code> is. A &lt;code>picture&lt;/code>? What kind of one?&lt;/p>
+&lt;hr>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">catPicture&lt;/span>, &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">picFunc&lt;/span>()
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;p>Great! What&amp;rsquo;s the context around the cat picture? What info would help me figure out what I can do with the cat picture?&lt;/p>
+&lt;hr>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">latestCatPicture&lt;/span>, &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">picFunc&lt;/span>()
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;p>I&amp;rsquo;m so proud.&lt;/p>
+&lt;hr>
+&lt;p>&lt;em>What about &lt;code>err&lt;/code>?&lt;/em>&lt;/p>
+&lt;hr>
+&lt;p>You name that anything else and I think the Go gopher will manifest itself from your screen and slap you across the face.&lt;/p>
+&lt;h2 id="and-write-more-comments-while-youre-at-it" >And Write More Comments While You&amp;rsquo;re At It
+&lt;span>
+&lt;a href="#and-write-more-comments-while-youre-at-it">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>They&amp;rsquo;re easy, I promise. Write an algorithm that looks weird? Just tell me why it has 19 nested for loops. Don&amp;rsquo;t assume I&amp;rsquo;ll figure it out or read the docs or some other ridiculous assumptions.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Assigns a variable and and error from calling picFunc()
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#a6e22e">p&lt;/span>, &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">picFunc&lt;/span>()
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Go fuck yourself.&lt;/p></description></item></channel></rss>
