@@ -1,2 +1,2 @@
 view:
-	open "https://kalverra.github.io/"s
+	open "https://kalverra.github.io/"
